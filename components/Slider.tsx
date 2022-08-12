@@ -32,29 +32,35 @@ const SliderComponent = () => {
   return (
     <CarouselProvider
       naturalSlideWidth={dimensions.width}
-      naturalSlideHeight={dimensions.height / 1.9}
+      naturalSlideHeight={dimensions.width}
       totalSlides={3}
     >
-      <div className="flex w-full items-center justify-between px-4 sticky top-[45%] z-20">
+      <div className="flex items-center justify-between h-[75%] md:h-[60%] lg:h-[40%] xl:h-[30%] w-[96%]">
         <ButtonBack>
-          <ArrowLeftIcon className="w-10 h-10 text-gray-500" />
+          <ArrowLeftIcon className="w-10 h-10 text-gray-500 absolute top-[32%] md:top-[30%] lg:top-[20%] xl:top-[13%] z-40" />
         </ButtonBack>
         <ButtonNext>
-          <ArrowRightIcon className="w-10 h-10 text-gray-500" />
+          <ArrowRightIcon className="w-10 h-10 text-gray-500 absolute top-[32%] md:top-[30%] lg:top-[20%] xl:top-[13%] z-40" />
         </ButtonNext>
       </div>
-      <Slider>
-        <Slide index={0}>
+      <Slider className="h-fit z-10">
+        <Slide className="h-fit" index={0}>
           <img
-            className="object-contain"
-            src="https://wallpapercave.com/wp/wp4291575.jpg"
+            className="object-fill h-[75%] sm:h-[60%] md:h-[50%] lg:h-[40%] xl:h-[30%] w-full"
+            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
           />
         </Slide>
         <Slide index={1}>
-          <img src="https://coolwallpapers.me/picsup/2636454-landscape-4k-free-downloads-hd-wallpaper.jpg" />
+          <img
+            className="object-fill h-[75%] md:h-[60%] lg:h-[40%] xl:h-[30%] w-full"
+            src="https://coolwallpapers.me/picsup/2636454-landscape-4k-free-downloads-hd-wallpaper.jpg"
+          />
         </Slide>
         <Slide index={2}>
-          <img src="https://wallpaperaccess.com/full/959294.jpg" />
+          <img
+            className="object-fill h-[75%] md:h-[60%] lg:h-[40%] xl:h-[30%] w-full"
+            src="https://wallpaperaccess.com/full/959294.jpg"
+          />
         </Slide>
       </Slider>
     </CarouselProvider>
