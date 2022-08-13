@@ -1,31 +1,18 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { CarouselProps } from "../data/CarouselProps";
 
 const NewSlider = () => {
   const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
+
   return (
     <div className="flex flex-col items-center gap-y-2">
       <Carousel
         onChange={(e) => {
           setSelectedSlide(e);
         }}
-        showArrows={true}
-        dynamicHeight={true}
-        useKeyboardArrows={true}
-        infiniteLoop={true}
-        swipeable={true}
-        animationHandler={"slide"}
-        emulateTouch={true}
-        showThumbs={false}
-        // axis="vertical"
-        centerSlidePercentage={50}
-        autoPlay
-        interval={3000}
-        showStatus={false}
-        autoFocus
-        showIndicators={false}
-        transitionTime={600}
+        {...(CarouselProps as any)}
       >
         <div className="lg:h-[70%]">
           <img

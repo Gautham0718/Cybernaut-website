@@ -1,45 +1,97 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Logo from "../public/Logo.jpeg";
 import LeftNavImg from "../public/LeftNavImg.jpeg";
 import { MenuIcon } from "@heroicons/react/outline";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 interface Props {
   className: string;
+  ref: React.Ref<HTMLDivElement>;
 }
 
-const Navbar: React.FC<Props> = ({ className }) => {
+const Navbar: React.FC<Props> = ({ className, ref }) => {
+  const router = useRouter();
+  const [screen, setScreen] = React.useState({
+    width: 0,
+    height: 0,
+  });
+  typeof window !== "undefined" &&
+    useLayoutEffect(() => {
+      setScreen({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }, []);
   return (
-    <div className={className}>
-      <img src={Logo.src} className="h-[80%] w-[60%] md:w-[30%] lg:w-fit" />
+    <div ref={ref} className={className}>
+      <Image
+        height={78}
+        width={screen.width / 4.5}
+        src={Logo.src}
+        className="h-[80%] w-[60%] md:w-[30%] lg:w-fit"
+      />
       <div className="flex w-[70%] items-center justify-end">
-        <div className="hidden md:flex sm:w-full lg:w-[70%] items-center justify-around">
-          <Link href={"/"}>
-            <p className="hover:border-b-4 hover:border-b-black ease-linear duration-200">
-              Home
-            </p>
-          </Link>
-          <Link href={"/services"}>
-            <p className="hover:border-b-4 hover:border-b-black ease-linear duration-200">
-              Services
-            </p>
-          </Link>
-          <Link href={"/about_us"}>
-            <p className="hover:border-b-4 hover:border-b-black ease-linear duration-200">
-              About Us
-            </p>
-          </Link>
-          <Link href={"/contact_us"}>
-            <p className="hover:border-b-4 hover:border-b-black ease-linear duration-200">
-              Career
-            </p>
-          </Link>
-          <Link href={"/communities"}>
-            <p className="hover:border-b-4 hover:border-b-black ease-linear duration-200">
-              Communities
-            </p>
-          </Link>
-          <img className="h-[90%]" src={LeftNavImg.src} />
+        <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
+          <a
+            href="#home"
+            className={
+              router.pathname === "/"
+                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+            }
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className={
+              router.pathname === "/about_us"
+                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+            }
+          >
+            About Us
+          </a>
+          <a
+            href="#services"
+            onClick={() => {
+              window.scrollTo(0, screen.height);
+            }}
+            className={
+              router.pathname === "/services"
+                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+            }
+          >
+            Services
+          </a>
+          <a
+            href="#career"
+            className={
+              router.pathname === "/contact_us"
+                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+            }
+          >
+            Career
+          </a>
+          <a
+            href="#community"
+            className={
+              router.pathname === "/communities"
+                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+            }
+          >
+            Communities
+          </a>
+          <Image
+            width={screen.width / 15}
+            height={50}
+            className="h-[90%]"
+            src={LeftNavImg.src}
+          />
         </div>
         <div className="flex gap-2 items-center justify-center md:hidden">
           <p>Menu</p>
