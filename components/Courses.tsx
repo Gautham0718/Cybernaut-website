@@ -18,7 +18,7 @@ const Courses = () => {
         <p className="text-lg sm:text-2xl">What We Offer</p>
         <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
       </div>
-      <div className="flex h-fit w-[90%] items-center justify-around flex-wrap px-6 pb-6 md:pb-10 md:px-10 gap-4">
+      <div className="flex h-fit w-full md:w-[90%] items-center justify-around flex-wrap px-6 pb-6 md:pb-10 md:px-10 gap-4">
         <CourseCard
           Flipped={screenWidth > screenHeight ? true : false}
           Image=""
