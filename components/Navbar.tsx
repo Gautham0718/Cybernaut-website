@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import Logo from "../public/Logo.jpeg";
 import LeftNavImg from "../public/LeftNavImg.jpeg";
 import { MenuIcon } from "@heroicons/react/outline";
@@ -7,10 +7,11 @@ import Image from "next/image";
 
 interface Props {
   className: string;
-  ref: React.Ref<HTMLDivElement>;
+  NavRef: React.Ref<HTMLDivElement>;
+  show: boolean;
 }
 
-const Navbar: React.FC<Props> = ({ className, ref }) => {
+const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
   const router = useRouter();
   const [screen, setScreen] = React.useState({
     width: 0,
@@ -24,7 +25,7 @@ const Navbar: React.FC<Props> = ({ className, ref }) => {
       });
     }, []);
   return (
-    <div ref={ref} className={className}>
+    <div ref={NavRef} className={className}>
       <Image
         height={78}
         width={screen.width / 4.5}

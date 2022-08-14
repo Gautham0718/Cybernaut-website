@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
@@ -12,9 +12,38 @@ import Founders from "../components/Founders";
 const Home: NextPage = () => {
   const { asPath } = useRouter();
   const navRef = useRef<HTMLDivElement>();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY < 150) {
+        setShow(true);
+      } else if (window.scrollY > lastScrollY) {
+        setShow(false);
+      } else {
+        setShow(true);
+      }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      // cleanup function
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
+
   return (
     <div id="home" className="overflow-hidden">
       <Head>
@@ -22,12 +51,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar
-        ref={navRef as any}
-        className="bg-white z-30 w-full h-[80px] flex items-center justify-between text-sm px-4"
+        NavRef={navRef as any}
+        show={show}
+        className={
+          show
+            ? "bg-white z-30 w-full h-[80px] flex items-center justify-between text-sm px-4 fixed top-0  ease-in duration-200"
+            : "bg-white z-30 w-full h-[80px] flex items-center justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-200"
+        }
       />
       <div
         key={asPath}
-        className="flex flex-col items-center justify-center overflow-hidden"
+        className={
+          show
+            ? "flex flex-col items-center justify-center overflow-hidden mt-[80px]"
+            : "flex flex-col items-center justify-center overflow-hidden"
+        }
       >
         <NewSlider />
         <AboutComponent />
