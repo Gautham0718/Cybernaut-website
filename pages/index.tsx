@@ -58,7 +58,7 @@ const Home: NextPage = () => {
 
   const SubmitHandler = async (data: MessageDataType) => {
     setMessageData(data);
-    await fetch("http://localhost:3000/api/user", {
+    await fetch(process.env.NEXT_PUBLIC_CLIENT_URL + "api/user", {
       method: "POST",
       body: JSON.stringify(data),
     });
