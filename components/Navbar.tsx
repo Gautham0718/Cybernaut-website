@@ -1,7 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import Logo from "../public/Logo.jpeg";
 import LeftNavImg from "../public/LeftNavImg.jpeg";
-import { MenuIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
@@ -37,7 +36,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
           <a
             href="#home"
             className={
-              router.pathname === "/"
+              router.pathname === "/home"
                 ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
                 : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
