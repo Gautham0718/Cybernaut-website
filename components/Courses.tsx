@@ -13,7 +13,7 @@ const Courses = () => {
     <>
       <div
         id="services"
-        className="mt-10 w-[90%] mb-6 flex flex-row items-center justify-start gap-x-4"
+        className="mt-10 w-[90%] mb-6 flex flex-row items-center justify-start gap-x-4 "
       >
         <p className="text-lg sm:text-2xl">What We Offer</p>
         <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
