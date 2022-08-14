@@ -30,9 +30,9 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
         height={78}
         width={screen.width / 4.5}
         src={Logo.src}
-        className="h-[80%] w-[60%] md:w-[30%] lg:w-fit"
+        className="h-[80%] md:w-[30%] lg:w-fit w-full"
       />
-      <div className="flex w-[70%] items-center justify-end">
+      <div className="hidden md:flex w-[70%] items-center justify-end">
         <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
           <a
             href="#home"
@@ -93,10 +93,6 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             className="h-[90%]"
             src={LeftNavImg.src}
           />
-        </div>
-        <div className="flex gap-2 items-center justify-center md:hidden">
-          <p>Menu</p>
-          <MenuIcon className="w-6 h-6" />
         </div>
       </div>
     </div>

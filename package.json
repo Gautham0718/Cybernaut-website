@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "filereader": "^0.10.3",
     "framer-motion": "^7.1.0",
     "next": "latest",
     "pure-react-carousel": "^1.29.0",

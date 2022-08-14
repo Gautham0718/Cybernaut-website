@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { CarouselProps } from "../data/CarouselProps";
 
-const NewSlider = () => {
+const NewSlider: React.FC = () => {
   const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
 
   return (

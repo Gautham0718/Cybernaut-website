@@ -4,7 +4,7 @@ import ViewCourseButton from "./ViewCourseButton";
 
 const Founders = () => {
   return (
-    <div className="w-full md:w-[90%] mt-16 flex flex-col md:flex-row flex-wrap items-center justify-center mb-16">
+    <div className="w-full md:w-[90%] mt-12 flex flex-col md:flex-row flex-wrap items-center justify-center mb-16">
       <div className="flex flex-col items-center justify-center gap-y-4 w-[90%] md:w-[40%]">
         <img className="" src={IMG.src} />
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
@@ -12,7 +12,7 @@ const Founders = () => {
           <p>Chief Executive Officer</p>
         </div>
       </div>
-      <div className=" h-full px-4 pb-4 w-full md:w-[60%]">
+      <div className=" h-full px-4 pb-4 w-full md:w-[60%]  mt-14 md:mt-0">
         <div className="">
           <div className="flex items-center gap-x-4">
             <p className="text-2xl font-bold">The Founders</p>

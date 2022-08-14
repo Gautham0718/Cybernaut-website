@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import type { NextPage } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import NewSlider from "../components/NewSlider";
@@ -8,6 +8,14 @@ import Courses from "../components/Courses";
 import AboutComponent from "../components/AboutComponent";
 import JuniorSpace from "../components/JuniorSpace";
 import Founders from "../components/Founders";
+import Contact from "../components/Contact";
+import { MessageDataType } from "../types";
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return {
+    props: {},
+  };
+};
 
 const Home: NextPage = () => {
   const { asPath } = useRouter();
@@ -19,6 +27,12 @@ const Home: NextPage = () => {
 
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [MessageData, setMessageData] = useState<MessageDataType>({
+    email: "",
+    name: "",
+    phone: "",
+    message: "",
+  });
 
   const controlNavbar = () => {
     if (typeof window !== "undefined") {
@@ -36,13 +50,25 @@ const Home: NextPage = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", controlNavbar);
-
-      // cleanup function
       return () => {
         window.removeEventListener("scroll", controlNavbar);
       };
     }
   }, [lastScrollY]);
+
+  const SubmitHandler = async (data: MessageDataType) => {
+    setMessageData(data);
+    await fetch("http://localhost:3000/api/user", {
+      method: "POST",
+      body: JSON.stringify(data),
+    });
+    setMessageData({
+      email: "",
+      name: "",
+      phone: "",
+      message: "",
+    });
+  };
 
   return (
     <div id="home" className="overflow-hidden">
@@ -55,15 +81,15 @@ const Home: NextPage = () => {
         show={show}
         className={
           show
-            ? "bg-white z-30 w-full h-[80px] flex items-center justify-between text-sm px-4 fixed top-0  ease-in duration-200"
-            : "bg-white z-30 w-full h-[80px] flex items-center justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-200"
+            ? "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed top-0  ease-in duration-200"
+            : "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-300"
         }
       />
       <div
         key={asPath}
         className={
           show
-            ? "flex flex-col items-center justify-center overflow-hidden mt-[80px]"
+            ? "flex flex-col items-center justify-center overflow-hidden mt-[80px] ease-in duration-200"
             : "flex flex-col items-center justify-center overflow-hidden"
         }
       >
@@ -72,6 +98,7 @@ const Home: NextPage = () => {
         <Courses />
         <JuniorSpace />
         <Founders />
+        <Contact submitDataFN={SubmitHandler} />
       </div>
     </div>
   );

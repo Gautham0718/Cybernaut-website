@@ -24,3 +24,10 @@ export interface VariantsType {
     };
   };
 }
+
+export interface MessageDataType {
+  email: string;
+  message?: string;
+  name: string;
+  phone: string;
+}
