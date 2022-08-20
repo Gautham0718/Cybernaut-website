@@ -44,7 +44,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             Home
           </a>
           <a
-            href="#about"
+            href="../about_components/test"
             className={
               router.pathname === "/about_us"
                 ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
@@ -55,9 +55,6 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
           </a>
           <a
             href="#services"
-            onClick={() => {
-              window.scrollTo(0, screen.height);
-            }}
             className={
               router.pathname === "/services"
                 ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
