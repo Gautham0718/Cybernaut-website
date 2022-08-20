@@ -17,7 +17,7 @@ const NewSlider: React.FC = () => {
         <div className="lg:h-[70%]">
           <img
             className="h-full"
-            src="../public/opening.mp4"
+            src="https://www.icegif.com/welcome-5/"
           />
         </div>
         <div className="lg:h-[70%]">
