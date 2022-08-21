@@ -50,19 +50,19 @@ const Founders = () => {
         <div
           className={
             selectedSlide === 0
-              ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
-              : "w-7 h-4 rounded-full border-2 border-cyan-400"
+              ? "absolute w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
+              : "absolute w-7 h-4 rounded-full border-2 border-cyan-400"
           }
         ></div>
-        <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+        <div className="absolute flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         <div
           className={
             selectedSlide === 1
-              ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
-              : "w-7 h-4 rounded-full border-2 border-blue-300"
+              ? "absolute w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
+              : "absolute w-7 h-4 rounded-full border-2 border-blue-300"
           }
         ></div>
-        <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+        <div className="absolute flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
         <div
           className={
             selectedSlide === 2
