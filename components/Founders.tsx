@@ -22,10 +22,10 @@ const Founders = () => {
       >
         <div className="lg:h-[70%]">
           <img
-            className="h-[50%]"
+            className="h-[50%] flex-col"
             src={IMG.src}
           />
-          <p>HelloWorld</p>
+          <p className="flex-col h-[20%]">HelloWorld</p>
 
         </div>
         <div className="lg:h-[70%]">
