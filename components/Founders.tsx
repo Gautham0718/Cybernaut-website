@@ -39,31 +39,31 @@ const Founders = () => {
           />
         </div>
       </Carousel>
-      <Carousel
-        onChange={(e) => {
-          setSelectedSlide(e);
-        }}
-        {...(CarouselProps as any)}
-      >
-        <div>
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
-        </div>
-        </div>
-        <div>
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
-        </div>
-        </div>
-        <div>
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
-        </div>
-        </div>
-      </Carousel>
+      <div className="w-[20%] h-6 flex items-center justify-between bg-white">
+        <div
+          className={
+            selectedSlide === 0
+              ? "bg-gray-200 p-4 flex flex-col w-full items-center justify-between font-semibold text-xl"
+              : "text-transparent"
+          }
+        >JayaSurya</div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+        <div
+          className={
+            selectedSlide === 1
+              ?  "bg-gray-200 p-4 flex flex-col w-full items-center justify-between font-semibold text-xl"
+              : "text-transparent"
+          }
+        >Manish Kumar</div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+        <div
+          className={
+            selectedSlide === 2
+            ?  "bg-gray-200 p-4 flex flex-col w-full items-center justify-between font-semibold text-xl"
+            : "text-transparent"
+          }
+        >Keerthana</div>
+      </div>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
         <div
           className={
