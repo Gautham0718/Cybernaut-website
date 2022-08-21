@@ -23,19 +23,23 @@ const Founders = () => {
         <div className="lg:h-[70%]">
           <img
             className="h-full"
-            src="https://www.icegif.com/wp-content/uploads/icegif-87.gif"
+            src={IMG.src}
+          />
+          <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between border-2 border-cyan-100">
+            <p className="font-semibold text-xl">Jayasurya. G</p>
+            <p>Chief Executive Officer</p>
+          </div>
+        </div>
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src={IMG.src}
           />
         </div>
         <div className="lg:h-[70%]">
           <img
             className="h-full"
-            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
-          />
-        </div>
-        <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
+            src={IMG.src}
           />
         </div>
       </Carousel>
