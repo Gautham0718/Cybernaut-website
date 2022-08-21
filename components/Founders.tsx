@@ -23,7 +23,7 @@ const Founders = () => {
         <div className="lg:h-[70%]">
           <div className="flex flex-col justify-center">
             <img
-              className="h-full flex flex-col"
+              className="flex flex-col"
               src={IMG.src}
             />
             <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
@@ -35,7 +35,7 @@ const Founders = () => {
         <div className="lg:h-[70%]">
         <div className="flex flex-col justify-center">
             <img
-              className="h-full flex flex-col"
+              className="flex flex-col"
               src={IMG.src}
             />
             <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
@@ -47,7 +47,7 @@ const Founders = () => {
         <div className="lg:h-[70%]">
         <div className="flex flex-col justify-center">
             <img
-              className="h-full flex flex-col"
+              className="flex flex-col"
               src={IMG.src}
             />
             <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
