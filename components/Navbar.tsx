@@ -27,7 +27,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
     <div ref={NavRef} className={className}>
       <Image
         height={60}
-        width={screen.width / 4.5}
+        width={screen.width / 5}
         src={Logo.src}
         className="h-[80%] md:w-[30%] lg:w-fit w-full"
       />
