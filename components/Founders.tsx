@@ -1,19 +1,73 @@
 import React from "react";
 import IMG from "../public/CEO.png";
 import ViewCourseButton from "./ViewCourseButton";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.css";
+import { CarouselProps } from "../data/CarouselProps";
 
 const Founders = () => {
+  const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
     <div
       id="community"
       className="w-full md:w-[90%] mt-12 flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
     >
       <div className="flex flex-col items-center justify-center gap-y-4 w-[90%] md:w-[40%]">
-        <img className="" src={IMG.src} />
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
+        
+      <Carousel
+        onChange={(e) => {
+          setSelectedSlide(e);
+        }}
+        {...(CarouselProps as any)}
+      >
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src="https://www.icegif.com/wp-content/uploads/icegif-87.gif"
+          />
         </div>
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
+          />
+        </div>
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
+          />
+        </div>
+      </Carousel>
+      <div className="w-[20%] h-6 flex items-center justify-between bg-white">
+        <div
+          className={
+            selectedSlide === 0
+              ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
+              : "w-7 h-4 rounded-full border-2 border-cyan-400"
+          }
+        ></div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+        <div
+          className={
+            selectedSlide === 1
+              ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
+              : "w-7 h-4 rounded-full border-2 border-blue-300"
+          }
+        ></div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+        <div
+          className={
+            selectedSlide === 2
+              ? "w-7 h-4 rounded-full border-2 border-blue-500 bg-blue-500  ease-linear duration-500"
+              : "w-7 h-4 rounded-full border-2 border-blue-500"
+          }
+        ></div>
+      </div>
+
+        
+
+
       </div>
       <div className=" h-full px-4 pb-4 w-full md:w-[60%]  mt-14 md:mt-0">
         <div className="">
