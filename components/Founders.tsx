@@ -45,20 +45,23 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="lg:h-[70%]">
-          <p>Helloworld</p>
+        <div>
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Jayasurya. G</p>
+          <p>Chief Executive Officer</p>
         </div>
-        <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src={IMG.src}
-          />
         </div>
-        <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src={IMG.src}
-          />
+        <div>
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Jayasurya. G</p>
+          <p>Chief Executive Officer</p>
+        </div>
+        </div>
+        <div>
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Jayasurya. G</p>
+          <p>Chief Executive Officer</p>
+        </div>
         </div>
       </Carousel>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
