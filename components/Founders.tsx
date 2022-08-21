@@ -27,22 +27,20 @@ const Founders = () => {
           <p>Chief Executive Officer</p>
         </div>
       </div>
-        <div className="lg:h-[70%]">
-        <img
-            className="h-[90%] align-top"
-            src={IMG.src}
-          />
-          
-          <p className=" align-bottom ">HelloWorld</p>
+      <div className="flex flex-col items-center justify-center gap-y-4 w-[90%] md:w-[40%]">
+        <img className="" src={IMG.src} />
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Manish Kumar</p>
+          <p>Chief Executive Officer</p>
         </div>
-        <div className="lg:h-[70%]">
-        <img
-            className="h-[90%] align-top"
-            src={IMG.src}
-          />
-          
-          <p className=" align-bottom ">HelloWorld</p>
+      </div>
+      <div className="flex flex-col items-center justify-center gap-y-4 w-[90%] md:w-[40%]">
+        <img className="" src={IMG.src} />
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Keerthana</p>
+          <p>Chief Executive Officer</p>
         </div>
+      </div>
       </Carousel>
       
       <div className="py-10 w-[20%] h-6 flex items-center justify-between">
