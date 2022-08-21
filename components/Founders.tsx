@@ -43,21 +43,21 @@ const Founders = () => {
         <div
           className={
             selectedSlide === 0
-              ? "bg-gray-200 p-4  w-full items-center justify-center font-semibold text-xl"
+              ? "bg-gray-200 inline-flex  w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
         >JayaSurya</div>
         <div
           className={
             selectedSlide === 1
-              ?  "bg-gray-200 p-2 w-full items-center justify-center font-semibold text-xl"
+              ?  "bg-gray-200 inline-flex w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
         >Manish Kumar</div>
         <div
           className={
             selectedSlide === 2
-            ?  "bg-gray-200 w-full items-center justify-center font-semibold text-xl"
+            ?  "bg-gray-200 inline-flex items-center justify-center font-semibold text-xl"
             : "text-transparent"
           }
         >Keerthana</div>
