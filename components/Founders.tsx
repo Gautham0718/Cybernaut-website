@@ -20,13 +20,13 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="lg:h-[70%]">
+        <div className="flex lg:h-[70%]">
           <img
             className="h-[50%] flex flex-col align-top"
             src={IMG.src}
           />
           
-          <p className="flex flex-col h-[20%] align-bottom">HelloWorld</p>
+          <p className="flex flex-col h-[20%] align-bottom front">HelloWorld</p>
 
         </div>
         <div className="lg:h-[70%]">
