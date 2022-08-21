@@ -22,7 +22,7 @@ const Founders = () => {
       >
         <div className="lg:h-[70%]">
           <img
-            className="h-full"
+            className="h-full flex flex-col"
             src={IMG.src}
           />
           <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between border-2 border-cyan-100">
