@@ -25,7 +25,7 @@ const Founders = () => {
             className="flex flex-col"
             src={IMG.src}
           />
-          <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between border-2 border-cyan-100">
+          <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between border-2 border-cyan-100 py-10">
             <p className="font-semibold text-xl">Jayasurya. G</p>
             <p>Chief Executive Officer</p>
           </div>
