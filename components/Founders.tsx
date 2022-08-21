@@ -22,24 +22,28 @@ const Founders = () => {
       >
         <div className="flex flex-col lg:h-[70%]">
           <img
-            className="h-[50%] align-top"
+            className="h-[90%] align-top"
             src={IMG.src}
           />
           
-          <p className=" align-bottom front">HelloWorld</p>
+          <p className=" align-bottom ">HelloWorld</p>
 
         </div>
         <div className="lg:h-[70%]">
-          <img
-            className="h-full"
+        <img
+            className="h-[90%] align-top"
             src={IMG.src}
           />
+          
+          <p className=" align-bottom ">HelloWorld</p>
         </div>
         <div className="lg:h-[70%]">
-          <img
-            className="h-full"
+        <img
+            className="h-[90%] align-top"
             src={IMG.src}
           />
+          
+          <p className=" align-bottom ">HelloWorld</p>
         </div>
       </Carousel>
       
