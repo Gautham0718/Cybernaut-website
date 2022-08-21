@@ -26,7 +26,7 @@ const Founders = () => {
             src={IMG.src}
           />
           
-          <p className=" align-bottom ">HelloWorld</p>
+          <div className=" align-bottom ">HelloWorld</div>
 
         </div>
         <div className="lg:h-[70%]">
