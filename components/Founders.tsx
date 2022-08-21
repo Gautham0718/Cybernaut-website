@@ -23,26 +23,38 @@ const Founders = () => {
         <div className="lg:h-[70%]">
           <div className="flex flex-col justify-center">
             <img
-              className="flex flex-col"
+              className="h-full flex flex-col"
               src={IMG.src}
             />
-            <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between border-2 border-cyan-100 py-10">
+            <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
               <p className="font-semibold text-xl">Jayasurya. G</p>
               <p>Chief Executive Officer</p>
             </div>
           </div>
         </div>
         <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src={IMG.src}
-          />
+        <div className="flex flex-col justify-center">
+            <img
+              className="h-full flex flex-col"
+              src={IMG.src}
+            />
+            <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+              <p className="font-semibold text-xl">Jayasurya. G</p>
+              <p>Chief Executive Officer</p>
+            </div>
+          </div>
         </div>
         <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src={IMG.src}
-          />
+        <div className="flex flex-col justify-center">
+            <img
+              className="h-full flex flex-col"
+              src={IMG.src}
+            />
+            <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+              <p className="font-semibold text-xl">Jayasurya. G</p>
+              <p>Chief Executive Officer</p>
+            </div>
+          </div>
         </div>
       </Carousel>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
