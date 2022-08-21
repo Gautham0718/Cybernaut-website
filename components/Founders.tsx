@@ -25,10 +25,28 @@ const Founders = () => {
             className="h-full"
             src={IMG.src}
           />
-          <div className="absolute bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-            <p className="absolute font-semibold text-xl">Jayasurya. G</p>
-            <p>Chief Executive Officer</p>
-          </div>
+        </div>
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src={IMG.src}
+          />
+        </div>
+        <div className="lg:h-[70%]">
+          <img
+            className="h-full"
+            src={IMG.src}
+          />
+        </div>
+      </Carousel>
+      <Carousel
+        onChange={(e) => {
+          setSelectedSlide(e);
+        }}
+        {...(CarouselProps as any)}
+      >
+        <div className="lg:h-[70%]">
+          <p>Helloworld</p>
         </div>
         <div className="lg:h-[70%]">
           <img
