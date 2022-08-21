@@ -25,6 +25,10 @@ const Founders = () => {
             className="h-full"
             src={IMG.src}
           />
+          <div className="absolute bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+            <p className="font-semibold text-xl">Jayasurya. G</p>
+            <p>Chief Executive Officer</p>
+          </div>
         </div>
         <div className="lg:h-[70%]">
           <img
