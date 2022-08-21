@@ -39,30 +39,27 @@ const Founders = () => {
           />
         </div>
       </Carousel>
-      <div className="h-6 flex items-center justify-center float-left bg-white">
+      <div className="flex items-center justify-center bg-white">
         <div
           className={
             selectedSlide === 0
-              ? "bg-gray-200 p-4 flex flex-col w-full items-center justify-center"
+              ? "bg-gray-200 p-4 flex flex-col w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
-        >
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
-        </div>
-        <div className="flex h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+        >JayaSurya</div>
+        <div className="flex items-center justify-center bg-white"></div>
         <div
           className={
             selectedSlide === 1
-              ?  "bg-gray-200 flex flex-col w-full items-center justify-center font-semibold text-xl"
+              ?  "bg-gray-200 p-4 flex flex-col w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
         >Manish Kumar</div>
-        <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+        <div className="flex items-center justify-center bg-white"></div>
         <div
           className={
             selectedSlide === 2
-            ?  "bg-gray-200 p-4 flex flex-col w-full items-center justify-between font-semibold text-xl"
+            ?  "bg-gray-200 p-4 flex flex-col w-full items-center justify-center font-semibold text-xl"
             : "text-transparent"
           }
         >Keerthana</div>
