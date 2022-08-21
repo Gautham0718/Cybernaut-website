@@ -43,7 +43,7 @@ const Founders = () => {
         <div
           className={
             selectedSlide === 0
-              ? "bg-gray-200 absolute p-4 flex flex-col w-full items-center justify-center"
+              ? "bg-gray-200 p-4 flex flex-col w-full items-center justify-center"
               : "text-transparent"
           }
         >
@@ -54,7 +54,7 @@ const Founders = () => {
         <div
           className={
             selectedSlide === 1
-              ?  "bg-gray-200 p-4 absolute flex flex-col w-full items-center justify-center font-semibold text-xl"
+              ?  "bg-gray-200  flex flex-col w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
         >Manish Kumar</div>
