@@ -22,11 +22,11 @@ const Founders = () => {
       >
         <div className="flex flex-col lg:h-[70%]">
           <img
-            className="h-[50%] flex flex-col align-top"
+            className="h-[50%] align-top"
             src={IMG.src}
           />
           
-          <p className="flex flex-col align-bottom front">HelloWorld</p>
+          <p className=" align-bottom front">HelloWorld</p>
 
         </div>
         <div className="lg:h-[70%]">
