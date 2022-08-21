@@ -46,7 +46,7 @@ const Founders = () => {
         </div>
       </Carousel>
       
-      <div className="py-10 w-[20%] h-6 flex items-center justify-between bg-white">
+      <div className="py-10 w-[20%] h-6 flex items-center justify-between">
         <div
           className={
             selectedSlide === 0
