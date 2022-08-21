@@ -39,11 +39,11 @@ const Founders = () => {
           />
         </div>
       </Carousel>
-      <div className="flex items-center justify-center bg-white">
+      <div className="items-center justify-center bg-white">
         <div
           className={
             selectedSlide === 0
-              ? "bg-gray-200 p-4 flex flex-col w-full items-center justify-center font-semibold text-xl"
+              ? "bg-gray-200 p-4  w-full items-center justify-center font-semibold text-xl"
               : "text-transparent"
           }
         >JayaSurya</div>
