@@ -37,8 +37,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             href="#home"
             className={
               router.pathname === "/home"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+                ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
           >
             Home
@@ -47,8 +47,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             href="../about_components/test"
             className={
               router.pathname === "/about_us"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+                ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
           >
             About Us
@@ -57,8 +57,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             href="#services"
             className={
               router.pathname === "/services"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+                ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
           >
             Services
@@ -67,8 +67,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             href="#career"
             className={
               router.pathname === "/contact_us"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+                ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
           >
             Career
@@ -77,8 +77,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             href="#community"
             className={
               router.pathname === "/communities"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+                ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+                : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
             }
           >
             Communities
@@ -92,8 +92,8 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
           href="#menu"
           className={
             router.pathname === "/menu"
-              ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-              : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+              ? "border-b-4 border-b-black ease-linear duration-150 cursor-pointer"
+              : "hover:border-b-4 hover:border-b-black ease-linear duration-150 cursor-pointer"
           }
         >
           Menu 
