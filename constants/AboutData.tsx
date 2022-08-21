@@ -7,7 +7,7 @@ export const aboutPageChildren = [
     key={"1"}
     className="flex flex-col items-start justify-between h-[80%] px-10"
   >
-    <img src = {HomeLogo.src}/>
+    <img className="flex float-left absolute" src = {HomeLogo.src}/>
     <div className="flex items-center justify-center w-fit gap-x-4">
       <p
         style={{
