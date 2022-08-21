@@ -10,8 +10,8 @@ const AboutComponent = () => {
       id="about"
       className="mt-16 w-full h-fit lg:h-[600px] md:w-4/5 flex mb-10"
     >
-      <div className=" hidden lg:flex lg:w-1/3 h-full bg-gray-200 rounded-md p-16"> 
-        <img className="flex float-left absolute" src = {HomeLogo.src}/>
+      <div className=" hidden lg:flex lg:w-1/3 h-full  p-16"> 
+        <img className="flex float-left justify-center object-center align-middle" src = {HomeLogo.src}/>
       </div>
       <div className="w-full sm:w-full lg:w-2/3 h-full flex items-center justify-start p-6 py-2">
         <StatusBar
