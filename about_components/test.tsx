@@ -7,3 +7,4 @@ const test = () => {
     <p>This is about page</p>
    )
 };
+export default test;
