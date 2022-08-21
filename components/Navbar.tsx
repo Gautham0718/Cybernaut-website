@@ -88,7 +88,16 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             height={50}
             className="h-[90%]"
             src={LeftNavImg.src}
-          />
+          /><a
+          href="#menu"
+          className={
+            router.pathname === "/menu"
+              ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
+              : "hover:border-b-2 hover:border-b-black ease-linear duration-150 cursor-pointer"
+          }
+        >
+          Menu 
+        </a>
         </div>
       </div>
     </div>
