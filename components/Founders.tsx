@@ -26,7 +26,7 @@ const Founders = () => {
             src={IMG.src}
           />
           
-          <p className="flex flex-col h-[20%] align-bottom front">HelloWorld</p>
+          <p className="flex flex-col align-bottom front">HelloWorld</p>
 
         </div>
         <div className="lg:h-[70%]">
@@ -42,29 +42,7 @@ const Founders = () => {
           />
         </div>
       </Carousel>
-      <div className="p-10 inline-block items-center justify-center bg-white">
-        <div
-          className={
-            selectedSlide === 0
-              ? "bg-gray-200 flex  w-full items-center justify-center font-semibold text-xl"
-              : "content-none flex-none"
-          }
-        >JayaSurya</div>
-        <div
-          className={
-            selectedSlide === 1
-              ?  "bg-gray-200 flex w-full items-center justify-center font-semibold text-xl"
-              : "text-transparent"
-          }
-        >Manish Kumar</div>
-        <div
-          className={
-            selectedSlide === 2
-            ?  "bg-gray-200 flex items-center justify-center font-semibold text-xl"
-            : "content-none flex-none"
-          }
-        >Keerthana</div>
-      </div>
+      
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
         <div
           className={
