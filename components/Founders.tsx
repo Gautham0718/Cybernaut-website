@@ -20,14 +20,13 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div >
-          <img
-            src={IMG.src}
-          />
-          
-          <div>HelloWorld</div>
-
+        <div className="flex flex-col items-center justify-center gap-y-4 w-[90%] md:w-[40%]">
+        <img className="" src={IMG.src} />
+        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+          <p className="font-semibold text-xl">Jayasurya. G</p>
+          <p>Chief Executive Officer</p>
         </div>
+      </div>
         <div className="lg:h-[70%]">
         <img
             className="h-[90%] align-top"
@@ -50,19 +49,19 @@ const Founders = () => {
         <div
           className={
             selectedSlide === 0
-              ? "absolute w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
-              : "absolute w-7 h-4 rounded-full border-2 border-cyan-400"
+              ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
+              : "w-7 h-4 rounded-full border-2 border-cyan-400"
           }
         ></div>
-        <div className="absolute flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         <div
           className={
             selectedSlide === 1
-              ? "absolute w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
-              : "absolute w-7 h-4 rounded-full border-2 border-blue-300"
+              ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
+              : "w-7 h-4 rounded-full border-2 border-blue-300"
           }
         ></div>
-        <div className="absolute flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+        <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
         <div
           className={
             selectedSlide === 2
