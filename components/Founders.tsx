@@ -25,6 +25,8 @@ const Founders = () => {
             className="h-full"
             src={IMG.src}
           />
+          <p>HelloWorld</p>
+
         </div>
         <div className="lg:h-[70%]">
           <img
@@ -39,7 +41,7 @@ const Founders = () => {
           />
         </div>
       </Carousel>
-      <div className="inline-block items-center justify-center bg-white">
+      <div className="p-10 inline-block items-center justify-center bg-white">
         <div
           className={
             selectedSlide === 0
