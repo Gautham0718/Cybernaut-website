@@ -23,10 +23,10 @@ const Courses = () => {
           Flipped={screenWidth > screenHeight ? true : false}
           Image=""
           Title="Tech Pack"
-          className="border-red-400 text-red-500 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
+          className="border-cyan-400 text-cyan-500 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
         />
         <CourseCard
-          className="border-cyan-400 text-cyan-500 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
+          className="border-red-400 text-red-500 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
           Image=""
           Title="Soft Skill Pack"
         />
@@ -37,7 +37,7 @@ const Courses = () => {
           Title="Junior Pack"
         />
         <CourseCard
-          className="border-green-300 text-green-400 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
+          className="border-pink-500 text-pink-600 h-[350px] w-[250px] sm:h-[450px] sm:w-[300px] hover:border-4 ${Color} rounded-md flex items-center justify-center flex-col p-4 ease-in duration-200"
           Image=""
           Title="Designing Pack"
         />
