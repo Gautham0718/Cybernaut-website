@@ -20,25 +20,25 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className=" absolute flex flex-col items-center justify-center lg:h-[70%] ">
+        <div className=" flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 px-0 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">JAYASURYA</p>
           <p>Founder & Chief Executive Officer</p>
         </div>
       </div>
-      <div className="absolute flex flex-col items-center justify-center lg:h-[70%] ">
+      <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 px-0 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">B MANISH KUMAR</p>
           <p>Co-Founder & President</p>
         </div>
       </div>
-      <div className="absolute flex flex-col items-center justify-center lg:h-[70%] ">
+      <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 px-0 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">R KEERTHANA</p>
           <p>Co-Founder & Vice-President</p>
