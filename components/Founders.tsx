@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
 
 const Founders = () => {
-  const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
+  const [selectedSlide, setSelectedSlide] = React.useState<number>(1);
   return (
     <div
       id="community"
