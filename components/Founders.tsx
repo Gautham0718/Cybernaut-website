@@ -20,9 +20,9 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className=" flex clear-left flex-col items-center justify-center lg:h-[70%] ">
+        <div className=" flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 absolute flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">JAYASURYA</p>
           <p>Founder & Chief Executive Officer</p>
@@ -30,7 +30,7 @@ const Founders = () => {
       </div>
       <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 absolute  flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">B MANISH KUMAR</p>
           <p>Co-Founder & President</p>
@@ -38,7 +38,7 @@ const Founders = () => {
       </div>
       <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
-        <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+        <div className="bg-gray-200 absolute flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">R KEERTHANA</p>
           <p>Co-Founder & Vice-President</p>
