@@ -20,7 +20,7 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="float-left flex flex-col lg:h-[70%] ">
+        <div className="float-left flex-col items-center justify-center lg:h-[70%] ">
         
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -28,7 +28,7 @@ const Founders = () => {
           <p>Founder & Chief Executive Officer</p>
         </div>
       </div>
-      <div className="float-left flex flex-col  lg:h-[70%] ">
+      <div className="float-left flex-col items-center justify-center lg:h-[70%] ">
         
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -36,7 +36,7 @@ const Founders = () => {
           <p>Co-Founder & President</p>
         </div>
       </div>
-      <div className="float-left flex flex-col  lg:h-[70%] ">
+      <div className="float-left flex-col items-center justify-center lg:h-[70%] ">
         
         <div className="p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
