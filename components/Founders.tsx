@@ -20,7 +20,7 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="absolute flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
+        <div className="absolute float-left flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
         
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
