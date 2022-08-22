@@ -22,7 +22,7 @@ const Founders = () => {
       >
         <div className=" flex flex-col items-center justify-center lg:h-[70%]  ">
         
-        <div className="bg-gray-200 flex flex-col w-full items-start justify-between">
+        <div className="bg-gray-200 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
           <p className="font-semibold text-xl">JAYASURYA</p>
           <p>Founder & Chief Executive Officer</p>
