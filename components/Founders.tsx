@@ -22,24 +22,26 @@ const Founders = () => {
       >
         <div className="flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
         
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+        <div className="h-full bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
-          <p className="font-semibold text-xl">Jayasurya. G</p>
-          <p>Chief Executive Officer</p>
+          <p className="font-semibold text-xl">JAYASURYA GNANAVEL</p>
+          <p>Founder & Chief Executive Officer</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-4 ">
-        <img className="" src={IMG.src} />
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Manish Kumar</p>
-          <p>Chief Executive Officer</p>
+      <div className="flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
+        
+        <div className="h-full bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+        <img className="h-full" src={IMG.src} />
+          <p className="font-semibold text-xl">B MANISH KUMAR</p>
+          <p>Co-Founder & President</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-4 ">
-        <img className="" src={IMG.src} />
-        <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
-          <p className="font-semibold text-xl">Keerthana</p>
-          <p>Chief Executive Officer</p>
+      <div className="flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
+        
+        <div className="h-full bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
+        <img className="h-full" src={IMG.src} />
+          <p className="font-semibold text-xl">R KEERTHANA</p>
+          <p>Co-Founder & Vice-President</p>
         </div>
       </div>
       </Carousel>
