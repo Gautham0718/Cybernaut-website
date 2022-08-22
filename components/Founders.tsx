@@ -28,7 +28,7 @@ const Founders = () => {
           <p>Founder & Chief Executive Officer</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
+      <div className="float-left flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
         
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -36,12 +36,12 @@ const Founders = () => {
           <p>Co-Founder & President</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
+      <div className="float-left flex flex-col items-center justify-center gap-y-4 lg:h-[70%] ">
         
         <div className="bg-gray-200 p-4 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
-          <p className="font-semibold text-xl">R KEERTHANA</p>
-          <p>Co-Founder & Vice-President</p>
+          <p className="bg-gray-200 font-semibold text-xl">R KEERTHANA</p>
+          <p className="bg-gray-200">Co-Founder & Vice-President</p>
         </div>
       </div>
       </Carousel>
