@@ -10,7 +10,7 @@ const Founders = () => {
   return (
     <div
       id="community"
-      className="w-full md:w-[70%] mt-12 flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
+      className="w-full md:w-[70%] mt-12 ml-0 flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
     >
       <div className="flex flex-col items-center justify-center w-[90%] md:w-[40%]">
         
