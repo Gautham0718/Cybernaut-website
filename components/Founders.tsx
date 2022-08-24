@@ -12,7 +12,7 @@ const Founders = () => {
       id="community"
       className="w-full md:w-[70%] mt-12  flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
     >
-      <div className="flex flex-col items-center justify-center  md:w-[40%]">
+      <div className="flex flex-col items-center justify-center w-[10%] md:w-[40%]">
         
       <Carousel
         onChange={(e) => {
