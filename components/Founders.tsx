@@ -20,7 +20,7 @@ const Founders = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className=" flex flex-col items-center justify-center">
+        <div className=" flex flex-col items-center justify-center lg:h-[70%]  ">
         
         <div className="bg-gray-200 flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -28,7 +28,7 @@ const Founders = () => {
           <p>Founder & Chief Executive Officer</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center ">
+      <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
         <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -36,7 +36,7 @@ const Founders = () => {
           <p>Co-Founder & President</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center lg:h-[70%] ">
         
         <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
         <img className="h-full" src={IMG.src} />
@@ -76,7 +76,7 @@ const Founders = () => {
 
 
       </div>
-      <div className=" h-full px-4 pb-4 w-full md:w-[60%]  mt-14 md:mt-0">
+      <div className="lg:h-[70%] px-4 pb-4 w-full md:w-[60%]  mt-14 md:mt-0">
         <div className="">
           <div className="flex items-center gap-x-4">
             <p className="text-2xl font-bold">The Founders</p>
