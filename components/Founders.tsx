@@ -31,7 +31,7 @@ const Founders = () => {
       <div className="flex flex-col items-center justify-center lg:h-[80%] ">
         
         <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
-        <img className="h-full" src={IMG.src} />
+        <img className="lg:h-[80%] " src={IMG.src} />
           <p className="font-semibold text-xl">B MANISH KUMAR</p>
           <p>Co-Founder & President</p>
         </div>
