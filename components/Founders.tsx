@@ -10,9 +10,9 @@ const Founders = () => {
   return (
     <div
       id="community"
-      className="w-full md:w-[50%] mt-12  flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
+      className="w-full md:w-[90%] mt-12  flex flex-col md:flex-row flex-wrap items-center justify-center mb-16"
     >
-      <div className="flex flex-col items-center justify-center w-[20%] md:w-[40%]">
+      <div className="flex flex-col items-center justify-center w-[10%] md:w-[40%]">
         
       <Carousel
         onChange={(e) => {
