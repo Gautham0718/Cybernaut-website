@@ -136,11 +136,11 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
             <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
           </div>
-            <div className="absolute flex flex-row justify-start float-left mt-20 h-[750px] bg-blue-300">
-              <img className="h-full w-full px-4 py-2" src={temp.src}/>
-              <img className="h-[300px] w-[200px] py-2 px-4"  src={temp.src}/>
-              <img className="h-[300px] w-[200px] py-2 px-4"  src={temp.src}/>
-              <img className="h-[300px] w-[200px] px-4 py-2"  src={temp.src}/>
+            <div className="absolute flex flex-row justify-start float-left mt-20 h-[750px] bg-blue-300 gap-x-4">
+              <img className="h-[300px] w-[200px] " src={temp.src}/>
+              <img className="h-[300px] w-[200px] "  src={temp.src}/>
+              <img className="h-[300px] w-[200px] "  src={temp.src}/>
+              <img className="h-full w-[200px] "  src={temp.src}/>
             </div>
         </div>
       </div>
