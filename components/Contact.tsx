@@ -130,7 +130,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="absolute h-full">
         <div className="flex flex-col">
           <div className="flex flex-row">
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
