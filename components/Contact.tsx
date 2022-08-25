@@ -136,7 +136,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
             <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
           </div>
-            <div className="flex flex-row justify-start float-left mt-20 h-full bg-blue-300 gap-x-8">
+            <div className="flex flex-row justify-start float-left  bg-blue-300 gap-x-8">
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
@@ -148,7 +148,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200"></div>
             <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
           </div>
-            <div className="flex flex-row justify-start float-left mt-20 h-full bg-yellow-300 gap-x-8">
+            <div className="flex flex-row justify-start float-left bg-yellow-300 gap-x-8">
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
