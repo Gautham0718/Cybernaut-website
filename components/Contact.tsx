@@ -2,21 +2,43 @@ import { CameraIcon } from "@heroicons/react/outline";
 import React from "react";
 import { MessageDataType } from "../types";
 import ViewCourseButton from "./ViewCourseButton";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.css";
+import { CarouselProps } from "../data/CarouselProps";
+
 
 interface Props {
   submitDataFN: (data: MessageDataType) => void;
 }
 
-const Contact: React.FC<Props> = ({ submitDataFN }) => {
+const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   const [MessageData, setMessageData] = React.useState<MessageDataType>({
     email: "",
     name: "",
     phone: "",
     message: "",
   });
+    const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
     <div className="flex flex-col items-center md:items-start justify-center w-full md:w-[90%] mb-10">
-      <p className="text-2xl font-bold">SAY HELLO TO OUT TEAM</p>
+      <div className="flex flex-col items-center justify-center w-[10%] md:w-[40%]">
+        
+        <Carousel
+          onChange={(e) => {
+            setSelectedSlide(e);
+          }}
+          {...(CarouselProps as any)}
+        >
+          <div className=" flex flex-col items-center justify-center lg:h-[83%]  ">
+          
+          <div className="bg-gray-200 flex flex-col w-full items-center justify-between">
+          <h1>LET'S GET IN TOUCH</h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center lg:h-[83%] ">
+          
+          <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+          <p className="text-2xl font-bold">SAY HELLO TO OUT TEAM</p>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <form
           onSubmit={(e) => {
@@ -108,8 +130,50 @@ const Contact: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center lg:h-[83%] ">
+          
+          <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
+          <p>Instagram @cybernaut_official</p>
+          <div className="flex w-[750%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+          </div>
+        </div>
+        </Carousel>
+        
+        <div className="py-10 w-[20%] h-6 flex items-center justify-between">
+          <div
+            className={
+              selectedSlide === 0
+                ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
+                : "w-7 h-4 rounded-full border-2 border-cyan-400"
+            }
+          ></div>
+          <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+          <div
+            className={
+              selectedSlide === 1
+                ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
+                : "w-7 h-4 rounded-full border-2 border-blue-300"
+            }
+          ></div>
+          <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
+          <div
+            className={
+              selectedSlide === 2
+                ? "w-7 h-4 rounded-full border-2 border-blue-500 bg-blue-500  ease-linear duration-500"
+                : "w-7 h-4 rounded-full border-2 border-blue-500"
+            }
+          ></div>
+        </div>
+  
+          
+  
+  
+        </div>
+      
     </div>
   );
 };
 
-export default Contact;
+export default Contacts;
