@@ -132,7 +132,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       <div className="lg:h-[70%]">
         <div className="flex flex-col">
             <p>Instagram @cybernaut_official</p>
-            <div className="flex w-[500%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+            <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         </div>
       </div>
     </Carousel>
