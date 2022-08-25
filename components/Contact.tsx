@@ -20,7 +20,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   });
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center gap-y-2 top-1">
     <Carousel
       onChange={(e) => {
         setSelectedSlide(e);
