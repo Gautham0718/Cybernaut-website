@@ -27,10 +27,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       }}
       {...(CarouselProps as any)}
     >
-      <div className="lg:h-[70%]">
+      <div>
         <h1 className="justify-center text-6xl font-bold items-center">LET'S GET IN TOUCH</h1>
       </div>
-      <div className="lg:h-[70%]">
+      <div>
       <div className="flex flex-col items-center justify-center lg:h-[83%] ">
           
           <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
@@ -129,10 +129,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="lg:h-[70%]">
+      <div>
         <div className="flex flex-row">
             <p>Instagram @cybernaut_official</p>
-            <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+            <div className="flex w-[60%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         </div>
       </div>
     </Carousel>
