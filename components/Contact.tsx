@@ -28,13 +28,13 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       {...(CarouselProps as any)}
     >
       <div className="h-full">
-        <h1 className="justify-center text-6xl font-bold items-center">LET'S GET IN TOUCH</h1>
+        <h1 className="justify-center text-6xl font-bold items-center mt-10">LET'S GET IN TOUCH</h1>
       </div>
       <div className="h-full">
       <div className="flex flex-col items-center justify-center ">
           
           <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
-          <p className="text-2xl font-bold">SAY HELLO TO OUT TEAM</p>
+          <p className="text-4xl font-bold float-left">SAY HELLO TO OUT TEAM</p>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <form
           onSubmit={(e) => {
@@ -131,8 +131,8 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       </div>
       <div className="h-full">
         <div className="flex flex-row">
-            <h4 className="text-3x1">Instagram @cybernaut_official</h4>
-            <div className="flex flex-row w-[40%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+            <h4 className="text-6x1">Instagram @cybernaut_official</h4>
+            <div className="flex flex-row p-2 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         </div>
       </div>
     </Carousel>
