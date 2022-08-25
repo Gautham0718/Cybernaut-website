@@ -4,10 +4,10 @@ import { CameraIcon , InboxIcon, PhoneIcon } from "@heroicons/react/outline";
 const footer = () =>{
     const router = useRouter();
     return (
-        <div className="flex flex-col justify-center items-center bg-black">
-            <h2 className=" font-bold text-8xl text-white justify-center">CYBERNAUT</h2>
-            <h4 className=" font-semibold text-5xl text-white justify-center"></h4>
-            <div className="flex flex-row fill-white justify-center">
+        <div className="flex flex-col justify-center items-center bg-black w-full">
+            <h2 className=" font-bold text-8xl text-white justify-center gap-y-2">CYBERNAUT</h2>
+            <h4 className=" font-semibold text-5xl text-white justify-center gap-y-2">ENDEAVOUR TO EXPLORE</h4>
+            <div className="flex flex-row fill-white justify-center gap-y-2">
                 <CameraIcon className="w-6 h-6 bg-gradient-to-r text-white" />
                 <InboxIcon className="w-6 h-6 bg-gradient-to-r text-white" />
                 <PhoneIcon className="w-6 h-6 bg-gradient-to-r text-white" />
@@ -16,6 +16,7 @@ const footer = () =>{
             </div>
             <p className="justify-center text-white text-4x1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
               natus.</p>
+              <div className="flex flex-row justify-center items-center text-white">
               <a
             href="#home"
             className={
@@ -66,6 +67,7 @@ const footer = () =>{
           >
             Communities
           </a>
+        </div>
         </div>
     );
 };
