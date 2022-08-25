@@ -34,7 +34,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       <div className="flex flex-col items-center justify-center ">
           
           <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
-          <p className="text-4xl font-bold float-left">SAY HELLO TO OUT TEAM</p>
+          <p className="text-4xl font-bold justify-start">SAY HELLO TO OUR TEAM</p>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <form
           onSubmit={(e) => {
