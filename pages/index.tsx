@@ -10,6 +10,7 @@ import JuniorSpace from "../components/JuniorSpace";
 import Founders from "../components/Founders";
 import Contact from "../components/Contact";
 import { MessageDataType } from "../types";
+import Footer from "../components/Footer";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -99,6 +100,7 @@ const Home: NextPage = () => {
         <JuniorSpace />
         <Founders />
         <Contact submitDataFN={SubmitHandler} />
+        <Footer/>
       </div>
     </div>
   );
