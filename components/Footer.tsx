@@ -4,7 +4,7 @@ import { CameraIcon , InboxIcon, PhoneIcon } from "@heroicons/react/outline";
 const footer = () =>{
     const router = useRouter();
     return (
-        <div className="flex flex-col justify-center items-center bg-black w-full gap-y-10">
+        <div className="flex flex-col justify-center items-center bg-black w-full gap-y-8">
             <h2 className=" font-bold text-4xl text-white justify-center ">CYBERNAUT</h2>
             <h4 className=" font-semibold text-2xl text-white justify-center ">ENDEAVOUR TO EXPLORE</h4>
             <div className="flex flex-row fill-white justify-center gap-x-6">
