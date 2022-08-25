@@ -131,8 +131,8 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       </div>
       <div className="h-full">
         <div className="flex flex-row">
-            <p>Instagram @cybernaut_official</p>
-            <div className="flex flex-row w-[60%] align-middle h-2 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+            <h4 className="text-3x1">Instagram @cybernaut_official</h4>
+            <div className="flex flex-row w-[40%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         </div>
       </div>
     </Carousel>
