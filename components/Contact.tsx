@@ -140,7 +140,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
               <img className="h-full w-full px-4 py-2" src={temp.src}/>
               <img className="h-[300px] w-[200px] py-2 px-4"  src={temp.src}/>
               <img className="h-[300px] w-[200px] py-2 px-4"  src={temp.src}/>
-              <img className="h-[300px] w-[200px] px-4 py-2"  src={temp+.src}/>
+              <img className="h-[300px] w-[200px] px-4 py-2"  src={temp.src}/>
             </div>
         </div>
       </div>
