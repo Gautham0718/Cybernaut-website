@@ -21,7 +21,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   });
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
-    <div className="flex flex-col items-center gap-y-2 top-1">
+    <div className="flex flex-col items-center gap-y-2 top-1 px-4">
     <Carousel
       onChange={(e) => {
         setSelectedSlide(e);
@@ -137,10 +137,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
           </div>
             <div className="absolute flex flex-row justify-start float-left mt-20 h-[750px] bg-blue-300 gap-x-8">
-              <img className="h-[500px] w-[300px] " src={temp.src}/>
-              <img className="h-[500px] w-[300px] "  src={temp.src}/>
-              <img className="h-[500px] w-[300px] "  src={temp.src}/>
-              <img className="h-[500px] w-[300px] "  src={temp.src}/>
+              <img className="h-[600px] w-[250px] " src={temp.src}/>
+              <img className="h-[600px] w-[250px] "  src={temp.src}/>
+              <img className="h-[600px] w-[250px] "  src={temp.src}/>
+              <img className="h-[600px] w-[250px] "  src={temp.src}/>
             </div>
         </div>
       </div>
