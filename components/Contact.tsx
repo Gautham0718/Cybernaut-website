@@ -20,7 +20,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   });
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
-    <div className="flex flex-col items-center gap-y-2">
+    <div className="flex flex-col items-center">
     <Carousel
       onChange={(e) => {
         setSelectedSlide(e);
@@ -28,7 +28,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       {...(CarouselProps as any)}
     >
       <div className="lg:h-[70%]">
-        <h1 className="justify-center items-center">LET'S GET IN TOUCH</h1>
+        <h1 className="justify-center text-6xl font-bold items-center">LET'S GET IN TOUCH</h1>
       </div>
       <div className="lg:h-[70%]">
       <div className="flex flex-col items-center justify-center lg:h-[83%] ">
@@ -130,7 +130,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
         </div>
       </div>
       <div className="lg:h-[70%]">
-        <div className="flex flex-col">
+        <div className="flex flex-row">
             <p>Instagram @cybernaut_official</p>
             <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
         </div>
