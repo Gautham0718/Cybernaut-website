@@ -11,6 +11,7 @@ import Founders from "../components/Founders";
 import Contact from "../components/Contact";
 import { MessageDataType } from "../types";
 import Footer from "../components/Footer";
+import Career from "../components/career";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -99,6 +100,7 @@ const Home: NextPage = () => {
         <Courses />
         <JuniorSpace />
         <Founders />
+        <Career />
         <Contact submitDataFN={SubmitHandler} />
         <Footer/>
       </div>
