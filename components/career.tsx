@@ -15,3 +15,4 @@ const career = () => {
         </div>
     );
 };
+export default career;
