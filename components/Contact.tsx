@@ -145,10 +145,36 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row">
-          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200"></div>
+          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-300 via-red-500 to-red-300"></div>
             <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
           </div>
-            <div className="flex flex-row justify-start float-left bg-yellow-300 gap-x-8">
+            <div className="flex flex-row justify-start float-left bg-red-300 gap-x-8">
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+            </div>
+        </div>
+      </div>
+      <div className="lg:h-[90%] flex flex-col ">
+        <div className="flex flex-col">
+          <div className="flex flex-row">
+            <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
+            <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-300"></div>
+          </div>
+            <div className="inline-block align-middle relative justify-center  bg-yellow-300 gap-x-8">
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+              <img className="h-[280px] w-[260px]" src={temp.src}/>
+            </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex flex-row">
+          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-pink-400 via-pink-600 to-pink-400"></div>
+            <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
+          </div>
+            <div className="flex flex-row justify-start float-left bg-pink-400 gap-x-8">
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
               <img className="h-[280px] w-[260px]" src={temp.src}/>
