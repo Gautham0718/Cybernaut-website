@@ -6,7 +6,7 @@ import ViewCourseButton from "./ViewCourseButton";
 const career = () => {
     return(
         <div className="flex justify-center items-center ">
-        <div className="flex  w-full"> 
+        <div className="flex lg:h-[50%] w-full"> 
             <img src={bg.src} />
         </div>
         <div className="absolute flex h-[80%] w-[80%] justify-center align-middle items-center bg-white">
@@ -14,7 +14,7 @@ const career = () => {
                 <div>
                     <div className="flex flex-row">
                         <h1 className=" font-bold text-3xl">Ready to be one of us?</h1>
-                        <div className="flex flex-row mt-3 w-14 align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+                        <div className="flex flex-row mt-4 w-14 align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
                     </div>
                     <div className="gap-y-4">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
