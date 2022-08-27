@@ -9,12 +9,12 @@ const career = () => {
         <div className="flex lg:h-[50%] w-full"> 
             <img src={bg.src} />
         </div>
-        <div className="absolute flex h-[60%] w-[80%] justify-center align-middle items-center bg-white">
+        <div className="absolute flex h-[60%] w-[70%] justify-center align-middle items-center bg-white">
             <div className="flex flex-row mx-4 justify-between">
                 <div>
                     <div className="flex flex-row">
-                        <h1 className=" font-bold text-3xl">Ready to be one of us?</h1>
-                        <div className="flex flex-row mt-4 w-14 align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+                        <h1 className=" font-bold text-3xl">Ready to be one of us? </h1>
+                        <div className="flex flex-row mt-5 w-14 align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
                     </div>
                     <div className="mt-4">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
