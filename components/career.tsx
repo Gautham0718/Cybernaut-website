@@ -9,7 +9,7 @@ const career = () => {
         <div className="flex lg:h-[50%] w-full"> 
             <img src={bg.src} />
         </div>
-        <div className="absolute flex h-[60%] w-[70%] justify-center align-middle items-center bg-white">
+        <div className="absolute flex h-[80%] w-[80%] justify-center align-middle items-center bg-white">
             <div className="flex flex-row mx-4 justify-between">
                 <div>
                     <div className="flex flex-row">
