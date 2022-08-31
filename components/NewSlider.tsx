@@ -45,13 +45,15 @@ const NewSlider: React.FC = () => {
           <p className="py-4">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           </p>
-          <div className="gap-y-4">
           <div className="flex flex-row gap-y-4">
-            <p className="border w-24 h-8 justify-center border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
-            <p className="border w-64 h-8 justify-center border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
+            <p className="border w-24 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
+            <p className="border w-48 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
           </div>
-          <p className="border w-80 h-8 justify-center border-solid border-gray-400 rounded-2xl font-semibold ">Basic to intermediate coaching</p>
-          <p className="border w-24 h-8 border-solid justify-center border-gray-400 rounded-2xl font-semibold">Certificate</p>
+          <div className="gap-y-4">
+          <p className="border w-64 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Basic to intermediate coaching</p>
+          </div>
+          <div className="gap-y-4">
+          <p className="border w-24 h-8 border-solid text-center border-gray-400 rounded-2xl font-semibold">Certificate</p>
           </div>
         </div>
             </div>
