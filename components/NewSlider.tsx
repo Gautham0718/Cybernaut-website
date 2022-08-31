@@ -35,32 +35,6 @@ const NewSlider: React.FC = () => {
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
-              </div>
-            <div className="ml-96">
-            <div className="">
-          <div className="flex items-center gap-x-4">
-            <p className="text-2xl font-bold">TECH COURSES</p>
-            <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
-          </div>
-          <p className="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit tempore, ullam illum nam maxime porro sapiente
-            assumenda harum tempora eos repellendus vitae provident a molestiae
-            nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
-          </p>
-          <p className="flex flex-row">
-            <p className="border border-solid border-gray-400 rounded-2xl">30+ Hours </p>
-            <p className="border border-solid border-gray-400 rounded-2xl">Access to study materials</p>
-          </p>
-          <p>
-            
-          <p className="border border-solid border-gray-400 rounded-2xl">Basic to intermediate coaching</p>
-          </p>
-          <p>
-          <p className="border border-solid border-gray-400 rounded-2xl">Certificate</p>
-          </p>
-        </div>
             </div>
           </div>
         </div>
