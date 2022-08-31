@@ -42,9 +42,13 @@ const NewSlider: React.FC = () => {
             <p className="text-2xl font-bold">TECH COURSES</p>
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
           </div>
-          <p className="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam maxime porro sapiente assumenda harum tempora eos repellendus vitae provident a molestiae nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam maxime porro sapiente assumenda harum tempora eos repellendus vitae provident a molestiae nisi enim, quam pariatur tenetur!
+          <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           </p>
+          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">30+ Hours</p>
+          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Access to study materials</p>
+          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Basic to intermediate coaching</p>
+          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Certificate</p>
         </div>
             </div>
           </div>
