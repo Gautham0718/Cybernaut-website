@@ -36,7 +36,7 @@ const NewSlider: React.FC = () => {
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
-            <div className=" px-[450px]">
+            <div className=" px-[650px]">
             <div className="">
           <div className="flex items-center gap-x-4">
             <p className="text-2xl font-bold">TECH COURSES</p>
