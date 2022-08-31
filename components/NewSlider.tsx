@@ -1,4 +1,4 @@
-import { LogoutIcon } from "@heroicons/react/outline";
+import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, LogoutIcon } from "@heroicons/react/outline";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
@@ -24,11 +24,11 @@ const NewSlider: React.FC = () => {
         <div className="lg:h-[70%] bg-gray-200 ml-6 m-6">
           <div className="flex flex-row align-middle items-center ml-10 ">
             <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left">
-              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-8"/>
-              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-10 translate-y-2"/>
-              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
-              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
-              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <AcademicCapIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-8"/>
+              <AtSymbolIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-10 translate-y-2"/>
+              <BellIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <BookmarkIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <BriefcaseIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
               <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
             </div>
             <div className=" absolute origin-center justify-center align-middle items-center border border-solid border-white bg-white rounded-full h-40 w-40">
