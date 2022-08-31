@@ -6,7 +6,7 @@ import ViewCourseButton from "./ViewCourseButton";
 const career = () => {
     return(
         <div className="flex justify-center items-center ">
-        <div className="flex lg:h-[50%] w-full"> 
+        <div className="flex lg:h-[40%] w-full"> 
             <img src={bg.src} />
         </div>
         <div className="absolute flex h-[80%] w-[80%] justify-center align-middle items-center bg-white">
@@ -24,7 +24,7 @@ const career = () => {
                          <ViewCourseButton text="Explore the available career oppurtunities " />
                     </div>
                 </div>
-                <img className="flex flex-row h-[70%] w-[70%] p-6" src = {bg2.src} />
+                <img className="flex flex-row h-auto w-auto p-6" src = {bg2.src} />
             </div>
         </div>
         </div>
