@@ -32,7 +32,7 @@ const NewSlider: React.FC = () => {
               <BookmarkIcon className="w-10 h-10 absolute border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
               <BriefcaseIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
               <LogoutIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
-            <div className=" absolute m-28 origin-center justify-center align-middle items-center border border-solid border-white bg-white  h-40 w-40 rounded-full">
+            <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
