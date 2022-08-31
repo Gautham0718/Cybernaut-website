@@ -21,7 +21,7 @@ const NewSlider: React.FC = () => {
             src={Logo.src}
           />
         </div>
-        <div className="lg:h-[70%] bg-gray-200 ml-6 m-6">
+        <div className="lg:h-[70%] bg-gray-200 ml-6 m-6 mt-10">
           <div className="flex flex-row align-middle items-center ml-12">
 
             
