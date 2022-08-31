@@ -42,18 +42,18 @@ const NewSlider: React.FC = () => {
             <p className=" text-4xl font-bold">TECH COURSES</p>
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
           </div>
-          <p className="py-4">
+          <p className="py-2">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           </p>
           <div className="flex flex-row py-4">
-            <p className="border w-28 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
-            <p className="border w-48 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
+            <p className="border w-28 h-12 text-center border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
+            <p className="border w-48 h-12 gap-x-4 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
           </div>
-          <div className="py-4">
-          <p className="border w-64 h-8 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Basic to intermediate coaching</p>
+          <div className="py-2">
+          <p className="border w-64 h-12 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Basic to intermediate coaching</p>
           </div>
-          <div className="py-4">
-          <p className="border w-24 h-8 border-solid text-center border-gray-400 rounded-2xl font-semibold">Certificate</p>
+          <div className="py-2">
+          <p className="border w-24 h-12 border-solid text-center border-gray-400 rounded-2xl font-semibold">Certificate</p>
           </div>
         </div>
             </div>
