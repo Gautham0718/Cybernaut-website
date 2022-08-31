@@ -23,15 +23,15 @@ const NewSlider: React.FC = () => {
         </div>
         <div className="lg:h-[70%] bg-gray-200 ml-6 m-6">
           <div className="flex flex-row align-middle items-center ml-12">
-            <AcademicCapIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-1 translate-y-0"/>
-              <AtSymbolIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-20 -translate-y-10"/>
-              <BellIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-40 translate-y-0"/>
-              <BookmarkIcon className="w-10 h-10 absolute border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-40 translate-y-36"/>
-              <BriefcaseIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-20 translate-y-64"/>
-              <LogoutIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-1 translate-y-36"/>
+            <AcademicCapIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-1 -translate-y-24"/>
+              <AtSymbolIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-48 -translate-y-10"/>
+              <BellIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-80 -translate-y-24"/>
+              <BookmarkIcon className="w-10 h-10 absolute border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-80 translate-y-32"/>
+              <BriefcaseIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-48 translate-y-64"/>
+              <LogoutIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-1 translate-y-32"/>
             <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left mt-16">
               
-            <div className=" absolute m-10 origin-center justify-center align-middle items-center border border-solid border-white bg-white rounded-full h-40 w-40">
+            <div className=" absolute m-48 origin-center justify-center align-middle items-center border border-solid border-white bg-white rounded-full h-40 w-40">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
