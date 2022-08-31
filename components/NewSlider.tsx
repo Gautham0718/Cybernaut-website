@@ -25,7 +25,7 @@ const NewSlider: React.FC = () => {
           <div className="flex flex-row align-middle items-center ml-12">
 
             
-            <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-16">
+            <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px]  mt-16">
               <AcademicCapIcon className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
               <AtSymbolIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
               <BellIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
@@ -36,7 +36,7 @@ const NewSlider: React.FC = () => {
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
-            <div className=" px-[200px]">
+            <div className=" px-[500px]">
             <div className="">
           <div className="flex items-center gap-x-4">
             <p className="text-2xl font-bold">TECH COURSES</p>
