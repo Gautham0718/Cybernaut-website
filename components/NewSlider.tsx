@@ -25,7 +25,7 @@ const NewSlider: React.FC = () => {
           <div className="flex flex-row align-middle items-center ml-20">
 
             
-            <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-32">
+            <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-24">
               <AcademicCapIcon className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
               <AtSymbolIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
               <BellIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
@@ -37,7 +37,7 @@ const NewSlider: React.FC = () => {
             </div>
               </div>
             <div className=" px-[500px]">
-            <div className="mt-32 text-justify">
+            <div className="mt-24 text-justify">
           <div className="flex items-center gap-x-4">
             <p className="text-2xl font-bold">TECH COURSES</p>
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
@@ -45,10 +45,10 @@ const NewSlider: React.FC = () => {
           <p>
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           </p>
-          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">30+ Hours</p>
-          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Access to study materials</p>
-          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Basic to intermediate coaching</p>
-          <p className="border w-20 border-solid border-gray-400 rounded-2xl ">Certificate</p>
+          <p className="border w-24 border-solid border-gray-400 rounded-2xl font-bold ">30+ Hours</p>
+          <p className="border w-44 border-solid border-gray-400 rounded-2xl font-bold ">Access to study materials</p>
+          <p className="border w-56 border-solid border-gray-400 rounded-2xl font-bold ">Basic to intermediate coaching</p>
+          <p className="border w-24 border-solid border-gray-400 rounded-2xl font-bold">Certificate</p>
         </div>
             </div>
           </div>
