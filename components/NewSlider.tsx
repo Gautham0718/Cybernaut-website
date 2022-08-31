@@ -45,7 +45,7 @@ const NewSlider: React.FC = () => {
           <p>
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           </p>
-          <div>
+          <div className="flex flex-row">
             <p className="border w-24 h-8 justify-center gap-y-4 border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
             <p className="border w-64 h-8 justify-center gap-y-4 border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
           </div>
