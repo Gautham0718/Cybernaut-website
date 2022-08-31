@@ -22,10 +22,17 @@ const NewSlider: React.FC = () => {
           />
         </div>
         <div className="lg:h-[70%]">
-          <img
-            className="h-full"
-            src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
-          />
+          <div className="flex flex-row">
+            <div className=" border-solid border-gray-300 rounded-full h-[70%] w-[70%]">
+              <h1>hello</h1>
+            </div>
+            <div className=" absolute justify-center align-middle items-center border-solid border-white fill-white rounded-full h-[40%] w-[40%]">
+              <p className="justify-center">content here</p>
+            </div>
+            <div>
+              <h1>Texts here</h1>
+            </div>
+          </div>
         </div>
         <div className="lg:h-[70%]">
           <img
