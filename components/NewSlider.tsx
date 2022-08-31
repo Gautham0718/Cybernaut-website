@@ -22,7 +22,7 @@ const NewSlider: React.FC = () => {
           />
         </div>
         <div className="lg:h-[70%] bg-gray-200 ml-6 m-6">
-          <div className="flex flex-row align-middle items-center ml-10 mt-[50%]">
+          <div className="flex flex-row align-middle items-center ml-10 mt-20">
             <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left">
               <AcademicCapIcon className="origin-top-left w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-8"/>
               <AtSymbolIcon className="origin-top-left w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-10 translate-y-4"/>
