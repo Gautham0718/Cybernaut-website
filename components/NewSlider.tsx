@@ -43,13 +43,7 @@ const NewSlider: React.FC = () => {
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
           </div>
           <p className="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit tempore, ullam illum nam maxime porro sapiente
-            assumenda harum tempora eos repellendus vitae provident a molestiae
-            nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam
-            maxime porro sapiente assumenda harum tempora eos repellendus vitae
-            provident a molestiae nisi enim, quam pariatur tenetur!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam maxime porro sapiente assumenda harum tempora eos repellendus vitae provident a molestiae nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam maxime porro sapiente assumenda harum tempora eos repellendus vitae provident a molestiae nisi enim, quam pariatur tenetur!
           </p>
         </div>
             </div>
