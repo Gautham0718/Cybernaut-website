@@ -50,15 +50,15 @@ const NewSlider: React.FC = () => {
             consectetur adipisicing elit.
           </p>
           <p className="flex flex-row">
-            <p className="border border-solid border-gray-400 rounded-2xl"><ClockIcon className=" text-xl"/>30+ Hours </p>
-            <p className="border border-solid border-gray-400 rounded-2xl"><DocumentIcon className=" text-xl"/>Access to study materials</p>
+            <p className="border border-solid border-gray-400 rounded-2xl">30+ Hours </p>
+            <p className="border border-solid border-gray-400 rounded-2xl">Access to study materials</p>
           </p>
           <p>
             
-          <p className="border border-solid border-gray-400 rounded-2xl"><CheckIcon className=" text-xl"/>Basic to intermediate coaching</p>
+          <p className="border border-solid border-gray-400 rounded-2xl">Basic to intermediate coaching</p>
           </p>
           <p>
-          <p className="border border-solid border-gray-400 rounded-2xl"><EmojiHappyIcon className=" text-xl"/>Certificate</p>
+          <p className="border border-solid border-gray-400 rounded-2xl">Certificate</p>
           </p>
         </div>
             </div>
