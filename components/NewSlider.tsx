@@ -26,12 +26,12 @@ const NewSlider: React.FC = () => {
 
             
             <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left mt-16">
-              <AcademicCapIcon className="absolute py-0 w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
-              <AtSymbolIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
-              <BellIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
-              <BookmarkIcon className="w-10 h-10 absolute border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
-              <BriefcaseIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
-              <LogoutIcon className="absolute w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
+              <AcademicCapIcon className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+              <AtSymbolIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
+              <BellIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
+              <BookmarkIcon className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
+              <BriefcaseIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
+              <LogoutIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
