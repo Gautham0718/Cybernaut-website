@@ -1,8 +1,9 @@
+import { LogoutIcon } from "@heroicons/react/outline";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
-
+import Logo from "../public/LeftNavImg.jpeg";
 const NewSlider: React.FC = () => {
   const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
 
@@ -17,7 +18,7 @@ const NewSlider: React.FC = () => {
         <div className="lg:h-[70%]">
           <img
             className="h-full"
-            src="https://www.icegif.com/wp-content/uploads/icegif-87.gif"
+            src={Logo.src}
           />
         </div>
         <div className="lg:h-[70%]">
