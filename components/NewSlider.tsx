@@ -1,4 +1,4 @@
-import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, CheckIcon, ClockIcon, DocumentIcon, EmojiHappyIcon, LogoutIcon } from "@heroicons/react/outline";
+import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, LogoutIcon } from "@heroicons/react/outline";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
@@ -35,6 +35,9 @@ const NewSlider: React.FC = () => {
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
+              </div>
+            <div className=" gap-x-10">
+              <h1>Texts here</h1>
             </div>
           </div>
         </div>
