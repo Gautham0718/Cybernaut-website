@@ -21,7 +21,7 @@ const NewSlider: React.FC = () => {
             src={Logo.src}
           />
         </div>
-        <div className="lg:h-[70%] bg-gray-200 ml-20 mr-20 m-6">
+        <div className="lg:h-[70%] bg-gray-200 ml-20 m-6">
           <div className="flex flex-row align-middle items-center ml-40">
 
             
@@ -36,7 +36,7 @@ const NewSlider: React.FC = () => {
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
-            <div className="mr-10 px-[500px]">
+            <div className=" px-[500px]">
             <div className="mt-24 text-justify gap-y-4">
           <div className="flex items-center gap-x-4">
             <p className=" text-4xl font-bold">TECH COURSES</p>
