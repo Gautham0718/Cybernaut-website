@@ -1,4 +1,4 @@
-import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, LogoutIcon } from "@heroicons/react/outline";
+import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, CheckIcon, ClockIcon, DocumentIcon, EmojiHappyIcon, LogoutIcon } from "@heroicons/react/outline";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
@@ -36,8 +36,31 @@ const NewSlider: React.FC = () => {
               <p className="justify-center align-middle items-center">content here</p>
             </div>
               </div>
-            <div>
-              <h1>Texts here</h1>
+            <div className=" ml-[50%]">
+            <div className="">
+          <div className="flex items-center gap-x-4">
+            <p className="text-2xl font-bold">TECH COURSES</p>
+            <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
+          </div>
+          <p className="p-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit tempore, ullam illum nam maxime porro sapiente
+            assumenda harum tempora eos repellendus vitae provident a molestiae
+            nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+          </p>
+          <p className="p-4 flex flex-row">
+            <p className="border border-solid border-gray-400 rounded-2xl"><ClockIcon/>30+ Hours </p>
+            <p className="border border-solid border-gray-400 rounded-2xl"><DocumentIcon/>Access to study materials</p>
+          </p>
+          <p className="p-4">
+            
+          <p className="border border-solid border-gray-400 rounded-2xl"><CheckIcon/>Basic to intermediate coaching</p>
+          </p>
+          <p className="p-4">
+          <p className="border border-solid border-gray-400 rounded-2xl"><EmojiHappyIcon/>Certificate</p>
+          </p>
+        </div>
             </div>
           </div>
         </div>
