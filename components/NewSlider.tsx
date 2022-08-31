@@ -25,7 +25,7 @@ const NewSlider: React.FC = () => {
           <div className="flex flex-row align-middle items-center ml-10 ">
             <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left">
               <AcademicCapIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-8"/>
-              <AtSymbolIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-10 translate-y-2"/>
+              <AtSymbolIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-10 translate-y-4"/>
               <BellIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
               <BookmarkIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
               <BriefcaseIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
