@@ -22,16 +22,16 @@ const NewSlider: React.FC = () => {
           />
         </div>
         <div className="lg:h-[70%] bg-gray-200 ml-6 m-6">
-          <div className="flex flex-row align-middle items-center ">
-            <div className=" border-solid border border-gray-400 rounded-full h-96 w-96">
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
-              <LogoutIcon className="w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400"/>
+          <div className="flex flex-row align-middle items-center ml-10 ">
+            <div className=" border-solid border border-gray-400 rounded-full h-96 w-96 origin-top-left">
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
+              <LogoutIcon className="w-10 h-10 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-2 translate-y-4"/>
             </div>
-            <div className=" absolute justify-center align-middle items-center border border-solid border-white bg-white rounded-full h-40 w-40">
+            <div className=" absolute px-28 justify-center align-middle items-center border border-solid border-white bg-white rounded-full h-40 w-40">
               <p className="justify-center align-middle items-center">content here</p>
             </div>
             <div>
