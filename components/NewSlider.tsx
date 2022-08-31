@@ -49,16 +49,16 @@ const NewSlider: React.FC = () => {
             nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
             consectetur adipisicing elit.
           </p>
-          <p className="p-4 flex flex-row">
-            <p className="border border-solid border-gray-400 rounded-2xl"><ClockIcon/>30+ Hours </p>
-            <p className="border border-solid border-gray-400 rounded-2xl"><DocumentIcon/>Access to study materials</p>
+          <p className="flex flex-row">
+            <p className="border border-solid border-gray-400 rounded-2xl"><ClockIcon className=" text-xl"/>30+ Hours </p>
+            <p className="border border-solid border-gray-400 rounded-2xl"><DocumentIcon className=" text-xl"/>Access to study materials</p>
           </p>
-          <p className="p-4">
+          <p>
             
-          <p className="border border-solid border-gray-400 rounded-2xl"><CheckIcon/>Basic to intermediate coaching</p>
+          <p className="border border-solid border-gray-400 rounded-2xl"><CheckIcon className=" text-xl"/>Basic to intermediate coaching</p>
           </p>
-          <p className="p-4">
-          <p className="border border-solid border-gray-400 rounded-2xl"><EmojiHappyIcon/>Certificate</p>
+          <p>
+          <p className="border border-solid border-gray-400 rounded-2xl"><EmojiHappyIcon className=" text-xl"/>Certificate</p>
           </p>
         </div>
             </div>
