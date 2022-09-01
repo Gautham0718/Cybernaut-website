@@ -4,7 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
 import Logo from "../public/Logo.jpeg";
-import "Home_Content_Display.js";
 const NewSlider: React.FC = () => {
   const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
 
