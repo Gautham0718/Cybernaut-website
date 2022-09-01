@@ -34,7 +34,7 @@ const NewSlider: React.FC = () => {
               <LogoutIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id="title" className=" justify-center pt-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
-              <p id="content" className="justify-center pt-2 align-middle items-center text-2x1">Content here</p>
+              <p id="content" className="justify-center pt-2 align-middle items-center text-2x1"></p>
             </div>
               </div>
             <div className=" pl-[500px] pr-4">
