@@ -61,7 +61,7 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
         <div className="lg:h-[70%] bg-gray-200  m-10">
-          <div className="flex flex-row align-middle items-center ml-20">
+          <div className="flex flex-row align-middle items-center ml-20 mr-[500px]">
           <div className="text-justify gap-y-4 mt-12">
           <div className="flex items-center gap-x-4">
             <p className=" text-4xl font-bold">TECH COURSES</p>
