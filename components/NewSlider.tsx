@@ -32,12 +32,12 @@ const NewSlider: React.FC = () => {
               <BookmarkIcon className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
               <BriefcaseIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
               <LogoutIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
-            <div className=" absolute origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-              <p id="title" className=" justify-center py-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
-              <p id="content" className="justify-center align-middle items-center text-2x1">Content here</p>
+            <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
+              <p id="title" className=" justify-center pt-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
+              <p id="content" className="justify-center pt-2 align-middle items-center text-2x1">Content here</p>
             </div>
               </div>
-            <div className=" px-[500px]">
+            <div className=" pl-[500px]">
             <div className="text-justify gap-y-4 mt-12">
           <div className="flex items-center gap-x-4">
             <p className=" text-4xl font-bold">TECH COURSES</p>
