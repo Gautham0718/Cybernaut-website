@@ -33,7 +33,7 @@ const NewSlider: React.FC = () => {
               <BriefcaseIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
               <LogoutIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-              <p className="justify-center align-middle items-center">content here</p>
+              <p className="justify-center py-[50%] align-middle items-center">TECH COURSE</p>
             </div>
               </div>
             <div className=" px-[500px]">
@@ -81,7 +81,7 @@ const NewSlider: React.FC = () => {
               ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
               : "w-7 h-4 rounded-full border-2 border-blue-300"
           }
-        >hello</div>
+        ></div>
         <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
         <div
           className={
