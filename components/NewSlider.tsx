@@ -81,7 +81,7 @@ const NewSlider: React.FC = () => {
               ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
               : "w-7 h-4 rounded-full border-2 border-blue-300"
           }
-        ></div>
+        >hello</div>
         <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
         <div
           className={
