@@ -4,9 +4,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
 import Logo from "../public/Logo.jpeg";
-import { aboutPageChildren } from "../constants/AboutData";
+import {TechData } from "../constants/TechCourses";
 
-var ind: number;
+var ind: number = 0;
 class newslide extends Component {
   state = {msg: "Tech courses"}
 }
@@ -16,23 +16,23 @@ function figma(){
 }
 
 function cpp(this: any){
-  this.setState({msg: "Hello cpp"});
+  ind = 2;
 }
 
 function python(this: any){
-  this.setState({msg: "Hello python"});
+  ind = 3;
 }
 
 function mysql(this: any){
-  this.setState({msg: "Hello figma"});
+  ind = 4;
 }
 
 function java(this: any){
-  this.setState({msg: "Hello figma"});
+  ind = 5;
 }
 
 function html(this: any){
-  this.setState({msg: "Hello figma"});
+  ind = 6;
 }
 
 val : String;
@@ -65,8 +65,7 @@ const NewSlider: React.FC = () => {
               <BriefcaseIcon onClick={java} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
               <LogoutIcon onClick={html} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-              <p className=" justify-center pt-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
-              <p className="justify-center pt-2 align-middle items-center text-2x1">hello,{aboutPageChildren[ind]}</p>
+              <p>{TechData[ind]}</p>
             </div>
               </div>
             <div className=" pl-[500px] pr-20">
