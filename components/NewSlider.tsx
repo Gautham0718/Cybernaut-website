@@ -54,7 +54,7 @@ const NewSlider: React.FC = () => {
           />
         </div>
         <div className="lg:h-[70%] bg-gray-200  m-10">
-          <div className="inline-block align-middle items-center ml-20">
+          <div className="flex flex-row align-middle items-center ml-20">
 
             
             <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-[10%]">
@@ -92,7 +92,7 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
         <div className="lg:h-[70%] bg-gray-200  m-10">
-          <div className="flex flex-row align-middle items-center ml-20 mr-[500px]">
+          <div className="flex flex-row align-middle items-center ml-20 mr-[500px] w-[1000px]">
             helloworld
             </div>
         </div>
