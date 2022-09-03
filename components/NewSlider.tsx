@@ -47,13 +47,13 @@ const NewSlider: React.FC = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="lg:h-[70%]">
+        <div className="lg:h-[70%] w-auto">
           <img
             className="h-full"
             src={Logo.src}
           />
         </div>
-        <div className="lg:h-[70%] bg-gray-200  m-10">
+        <div className="lg:h-[70%] bg-gray-200 w-auto  m-10">
           <div className="flex flex-row align-middle items-center ml-20">
 
             
@@ -91,7 +91,7 @@ const NewSlider: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="lg:h-[70%] bg-gray-200  m-10">
+        <div className="lg:h-[70%] bg-gray-200 w-auto  m-10">
         <div className="flex flex-row align-middle items-center ml-20">
 
             
