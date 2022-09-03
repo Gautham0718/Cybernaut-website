@@ -91,7 +91,7 @@ const NewSlider: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="lg:h-[70%]">
+        <div className="lg:h-[70%] bg-gray-200  m-10">
           <img
             className="h-full"
             src="https://www.cybernautofficial.com/static/media/cybernautPoster.f537893d.jpeg"
