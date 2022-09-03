@@ -55,7 +55,7 @@ const NewSlider: React.FC = () => {
 
             
             <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-[10%]">
-              <button onClick={figma}><AcademicCapIcon  className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/></button>
+              <AcademicCapIcon onClick={figma} className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
               <AtSymbolIcon onClick={cpp} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
               <BellIcon onClick={python} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
               <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
@@ -63,7 +63,7 @@ const NewSlider: React.FC = () => {
               <LogoutIcon onClick={html} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id="title" className=" justify-center pt-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
-              <p id="content" className="justify-center pt-2 align-middle items-center text-2x1"></p>
+              <p id="content" className="justify-center pt-2 align-middle items-center text-2x1">this.state.msg</p>
             </div>
               </div>
             <div className=" pl-[500px] pr-20">
