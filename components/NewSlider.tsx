@@ -65,7 +65,7 @@ const NewSlider: React.FC = () => {
               <BriefcaseIcon onClick={java} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
               <LogoutIcon onClick={html} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-              <p>{TechData[ind]}</p>
+              <p className=" justify-center pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
             </div>
               </div>
             <div className=" pl-[500px] pr-20">
