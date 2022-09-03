@@ -6,6 +6,7 @@ import { CarouselProps } from "../data/CarouselProps";
 import Logo from "../public/Logo.jpeg";
 import {TechData } from "../constants/TechCourses";
 
+
 var ind: number = 0;
 class newslide extends Component {
   state = {msg: "Tech courses"}
@@ -58,12 +59,12 @@ const NewSlider: React.FC = () => {
 
             
             <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-[10%]">
-              <AcademicCapIcon href="" onClick={figma} className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
-              <AtSymbolIcon onClick={cpp} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
-              <BellIcon onClick={python} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
-              <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
-              <BriefcaseIcon onClick={java} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
-              <LogoutIcon onClick={html} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
+              <AcademicCapIcon href="#" onClick={figma} className="absolute hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+              <AtSymbolIcon onClick={cpp} className="absolute  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
+              <BellIcon onClick={python} className="absolute  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
+              <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
+              <BriefcaseIcon onClick={java} className="absolute  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
+              <LogoutIcon onClick={html} className="absolute  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className=" justify-center pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
             </div>
