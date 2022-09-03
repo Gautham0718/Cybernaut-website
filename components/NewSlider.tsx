@@ -1,13 +1,46 @@
 import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, LogoutIcon } from "@heroicons/react/outline";
-import React from "react";
+import React, {Component} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
 import Logo from "../public/Logo.jpeg";
+import Script from "next/script";
+
+class newslide extends Component {
+  state = {msg: "Tech courses"}
+}
+
+function figma(this: any){
+  this.setState({msg: "Hello figma"})
+}
+
+function cpp(this: any){
+  this.setState({msg: "Hello cpp"})
+}
+
+function python(this: any){
+  this.setState({msg: "Hello python"})
+}
+
+function mysql(this: any){
+  this.setState({msg: "Hello figma"})
+}
+
+function java(this: any){
+  this.setState({msg: "Hello figma"})
+}
+
+function html(this: any){
+  this.setState({msg: "Hello figma"})
+}
+
 const NewSlider: React.FC = () => {
   const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
 
   return (
+    <>
+    <Script src="../components/Home_Content_Display.js" strategy="lazyOnload"
+    /> 
     <div className="flex flex-col items-center gap-y-2">
       <Carousel
         onChange={(e) => {
@@ -26,18 +59,18 @@ const NewSlider: React.FC = () => {
 
             
             <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-[10%]">
-              <AcademicCapIcon className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
-              <AtSymbolIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
-              <BellIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
-              <BookmarkIcon className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
-              <BriefcaseIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
-              <LogoutIcon className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
+              <AcademicCapIcon onClick={figma} className="absolute cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+              <AtSymbolIcon onClick={cpp} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
+              <BellIcon onClick={python} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
+              <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
+              <BriefcaseIcon onClick={java} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
+              <LogoutIcon onClick={html} className="absolute cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
             <div className=" absolute m-16 origin-center justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id="title" className=" justify-center pt-[25%] align-middle items-center font-bold text-2x1">TECH COURSE</p>
               <p id="content" className="justify-center pt-2 align-middle items-center text-2x1"></p>
             </div>
               </div>
-            <div className=" pl-[500px] pr-4">
+            <div className=" pl-[500px] pr-20">
             <div className="text-justify gap-y-4 mt-12">
           <div className="flex items-center gap-x-4">
             <p className=" text-4xl font-bold">TECH COURSES</p>
@@ -93,7 +126,11 @@ const NewSlider: React.FC = () => {
         ></div>
       </div>
     </div>
+    </>
   );
 };
 
 export default NewSlider;
+
+
+
