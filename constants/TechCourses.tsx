@@ -7,7 +7,7 @@ export const TechData = [
   >
     <div>
     <p className="font-bold text-4x1">CYBERNAUT</p>
-    <p className=" justify-center self-center w-32 ">Welcome to cybernaut tech courses</p>
+    <p className=" justify-center self-center w-28 ">Welcome to cybernaut tech courses</p>
     </div>
     </div>,
   <div
@@ -15,7 +15,7 @@ export const TechData = [
 >
   <div>
   <p className="font-bold text-4x1">FIGMA</p>
-  <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className=" justify-center self-center w-28">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
   <div
@@ -23,7 +23,7 @@ export const TechData = [
 >
   <div>
   <p className="font-bold text-4x1">C++</p>
-  <p className=" justify-center self-center w-32 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className=" justify-center self-center w-28 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
    <div
@@ -31,7 +31,7 @@ export const TechData = [
  >
    <div>
    <p className="font-bold text-4x1">PYTHON</p>
-   <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+   <p className=" justify-center self-center w-28">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
    </div>, 
    <div
@@ -39,7 +39,7 @@ export const TechData = [
 >
   <div>
   <p className="font-bold text-4x1" >MYSQL</p>
-  <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className=" justify-center self-center w-28">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
    <div
@@ -47,7 +47,7 @@ export const TechData = [
  >
    <div>
    <p className="font-bold text-4x1">JAVA</p>
-   <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+   <p className=" justify-center self-center w-28">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
    </div>,
     <div
@@ -55,7 +55,7 @@ export const TechData = [
   >
     <div>
     <p className="font-bold text-4x1">HTML</p>
-    <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p className=" justify-center self-center w-28">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     </div>,
 ];
