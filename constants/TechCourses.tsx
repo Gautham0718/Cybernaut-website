@@ -6,56 +6,56 @@ export const TechData = [
     key={"0"}
   >
     <div>
-    <p >CYBERNAUT</p>
-    <p className=" w-24 ">Welcome to cybernaut tech courses</p>
+    <p className="font-bold text-4x1">CYBERNAUT</p>
+    <p className=" justify-center self-center w-32 ">Welcome to cybernaut tech courses</p>
     </div>
     </div>,
   <div
   key={"1"}
 >
   <div>
-  <p >FIGMA</p>
-  <p className=" w-24">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className="font-bold text-4x1">FIGMA</p>
+  <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
   <div
   key={"2"}
 >
   <div>
-  <p >C++</p>
-  <p className=" w-24 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className="font-bold text-4x1">C++</p>
+  <p className=" justify-center self-center w-32 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
    <div
    key={"3"}
  >
    <div>
-   <p >PYTHON</p>
-   <p className=" w-24">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+   <p className="font-bold text-4x1">PYTHON</p>
+   <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
    </div>, 
    <div
   key={"4"}
 >
   <div>
-  <p >MYSQL</p>
-  <p className=" w-24">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p className="font-bold text-4x1" >MYSQL</p>
+  <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
   </div>,
    <div
    key={"5"}
  >
    <div>
-   <p >JAVA</p>
-   <p className=" w-24">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+   <p className="font-bold text-4x1">JAVA</p>
+   <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
    </div>,
     <div
     key={"6"}
   >
     <div>
-    <p >HTML</p>
-    <p className=" w-24">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p className="font-bold text-4x1">HTML</p>
+    <p className=" justify-center self-center w-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     </div>,
 ];
