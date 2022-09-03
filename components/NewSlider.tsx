@@ -11,7 +11,7 @@ class newslide extends Component {
   state = {msg: "Tech courses"}
 }
 
-function figma(this: any){
+function figma(){
   ind = 1;
 }
 
