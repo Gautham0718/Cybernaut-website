@@ -92,7 +92,27 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
         <div className="h-full bg-gray-200  m-10">
-          <p>Helloworld</p>
+        <div className=" pl-20 w-full pr-20">
+            <div className="text-justify gap-y-4 mt-12">
+          <div className="flex items-center gap-x-4">
+            <p className=" text-4xl font-bold">TECH COURSES</p>
+            <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
+          </div>
+          <p className="py-1">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+          </p>
+          <div className="flex flex-row py-4 gap-x-4">
+            <p className="border w-28 h-9 text-center border-solid border-gray-400 rounded-2xl font-semibold ">30+ Hours</p>
+            <p className="border w-48 h-9 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Access to study materials</p>
+          </div>
+          <div className="py-1">
+          <p className="border w-64 h-9 text-center border-solid border-gray-400 rounded-2xl font-semibold ">Basic to intermediate coaching</p>
+          </div>
+          <div className="py-1">
+          <p className="border w-24 h-9 border-solid text-center border-gray-400 rounded-2xl font-semibold">Certificate</p>
+          </div>
+        </div>
+            </div>
         </div>
       </Carousel>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
