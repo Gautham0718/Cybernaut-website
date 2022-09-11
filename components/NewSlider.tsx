@@ -92,7 +92,7 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
         <div className="h-full bg-gray-200  m-10">
-        <div className=" inline-block flex-row align-middle items-center ml-10">
+        <div className=" flex flex-row align-middle items-center ml-10">
         <div className=" pl-10 w-[50%]">
             <div className="text-justify gap-y-4 mt-12">
           <div className="flex items-center gap-x-4">
