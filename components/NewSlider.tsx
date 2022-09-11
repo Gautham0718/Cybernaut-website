@@ -93,7 +93,7 @@
           </div>
           <div className="h-full bg-gray-200  m-10">
           <div className=" flex flex-row align-middle items-center ml-10">
-          <div className=" pl-10 w-[50%] pr-20">
+          <div className=" pl-10 w-[40%] pr-20">
               <div className="text-justify gap-y-4 mt-12">
             <div className="flex items-center gap-x-4">
               <p className=" text-4xl font-bold">TECH COURSES</p>
@@ -114,7 +114,7 @@
             </div>
           </div>
               </div>
-              <div className=" relative border-solid border border-gray-400 h-96 w-96 rounded-[500px] mt-20">
+              <div className=" relative border-solid border border-gray-400 h-96 w-80 rounded-[500px] mt-20">
                 <AcademicCapIcon href="#" onClick={figma} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
                 <AtSymbolIcon onClick={cpp} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
                 <BellIcon onClick={python} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
