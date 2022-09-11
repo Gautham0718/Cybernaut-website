@@ -54,6 +54,7 @@ const NewSlider: React.FC = () => {
           />
         </div>
         <div className="lg:h-[70%] bg-gray-200  m-10">
+          <canvas className="lg:h-[70%] bg-gray-200  m-10">
           <div className="flex flex-row align-middle items-center ml-20">
 
             
@@ -90,9 +91,12 @@ const NewSlider: React.FC = () => {
         </div>
             </div>
           </div>
+          </canvas>
         </div>
         <div className="lg:h-[70%] bg-gray-200  m-10">
+          <canvas className="lg:h-[70%] bg-gray-200  m-10">
           <p>Helloworld</p>
+          </canvas>
         </div>
       </Carousel>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
