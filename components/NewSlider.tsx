@@ -91,7 +91,7 @@ const NewSlider: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="h-full w-auto absolute bg-gray-200  m-10">
+        <div className="h-full bg-gray-200  m-10">
           <p>Helloworld</p>
         </div>
       </Carousel>
