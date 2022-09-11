@@ -92,7 +92,8 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
         <div className="h-full bg-gray-200  m-10">
-        <div className=" pl-20 w-full pr-[800px] pt-20">
+        <div className="flex flex-row align-middle items-center ml-20">
+        <div className=" pl-20 w-full pr-20">
             <div className="text-justify gap-y-4 mt-12">
           <div className="flex items-center gap-x-4">
             <p className=" text-4xl font-bold">TECH COURSES</p>
@@ -123,7 +124,8 @@ const NewSlider: React.FC = () => {
             <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
             </div>
-              </div>
+            </div>
+            </div>
         </div>
       </Carousel>
       <div className="w-[20%] h-6 flex items-center justify-between bg-white">
