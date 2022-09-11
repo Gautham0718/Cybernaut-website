@@ -53,7 +53,7 @@ const NewSlider: React.FC = () => {
             src={Logo.src}
           />
         </div>
-        <div className="lg:h-[70%] bg-gray-200  m-10">
+        <div className=" bg-gray-200  m-10">
           <canvas className="lg:h-[70%] bg-gray-200  m-10">
           <div className="flex flex-row align-middle items-center ml-20">
 
@@ -93,7 +93,7 @@ const NewSlider: React.FC = () => {
           </div>
           </canvas>
         </div>
-        <div className="lg:h-[70%] bg-gray-200  m-10">
+        <div className=" bg-gray-200  m-10">
           <canvas className="lg:h-[70%] bg-gray-200  m-10">
           <p>Helloworld</p>
           </canvas>
