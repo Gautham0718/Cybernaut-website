@@ -47,7 +47,7 @@ const NewSlider: React.FC = () => {
         }}
         {...(CarouselProps as any)}
       >
-        <div className="h-full">
+        <div className="h-full m-10">
           <img
             className="h-full"
             src={Logo.src}
