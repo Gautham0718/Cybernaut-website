@@ -114,7 +114,7 @@ const NewSlider: React.FC = () => {
           </div>
         </div>
             </div>
-            <div className=" border-solid border border-gray-400 pl-[600px] h-96 w-96 rounded-[500px] origin-top-left mt-20">
+            <div className=" border-solid border border-gray-400 h-96 w-96 rounded-[500px] origin-top-left mt-20">
               <AcademicCapIcon href="#" onClick={figma} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
               <AtSymbolIcon onClick={cpp} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
               <BellIcon onClick={python} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
