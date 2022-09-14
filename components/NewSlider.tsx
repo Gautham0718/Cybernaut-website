@@ -36,6 +36,30 @@
     ind = 6;
   }
 
+  function nt1(){
+    ind = 7;
+  }
+
+  function nt2(){
+    ind = 8;
+  }
+
+  function nt3(){
+    ind = 9;
+  }
+
+  function nt4(){
+    ind = 10;
+  }
+
+  function nt5(){
+    ind = 11;
+  }
+
+  function nt6(){
+    ind = 12;
+  }
+
   const NewSlider: React.FC = () => {
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
 
@@ -58,7 +82,7 @@
 
               
               <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[500px] origin-top-left mt-20">
-                <AcademicCapIcon href="#" onClick={figma} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+                <AcademicCapIcon onClick={figma} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
                 <AtSymbolIcon onClick={cpp} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
                 <BellIcon onClick={python} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
                 <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
@@ -96,7 +120,7 @@
           <div className=" pl-10 w-[50%] pr-20">
               <div className="text-justify gap-y-4 mt-12">
             <div className="flex items-center gap-x-4">
-              <p className=" text-4xl font-bold">TECH COURSES</p>
+              <p className=" text-4xl font-bold">NON TECH COURSES</p>
               <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
             </div>
             <p className="py-1">
@@ -115,12 +139,12 @@
           </div>
               </div>
                 <div className="absolute ml-[50%] border-solid border border-gray-400  h-96 w-96 rounded-[500px] mt-20">
-                <AcademicCapIcon href="#" onClick={figma} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
-                <AtSymbolIcon onClick={cpp} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
-                <BellIcon onClick={python} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
-                <BookmarkIcon onClick={mysql} className="w-12 h-12 absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
-                <BriefcaseIcon onClick={java} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
-                <LogoutIcon onClick={html} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
+                <AcademicCapIcon onClick={nt1} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+                <AtSymbolIcon onClick={nt2} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
+                <BellIcon onClick={nt3} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
+                <BookmarkIcon onClick={nt4} className="w-12 h-12 absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
+                <BriefcaseIcon onClick={nt5} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
+                <LogoutIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
                 <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
               </div>
