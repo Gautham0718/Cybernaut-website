@@ -22,16 +22,16 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
     <div className="flex flex-col items-center gap-y-4 top-1 px-4">
-    <Carousel className="gap-y-4"
+    <Carousel 
       onChange={(e) => {
         setSelectedSlide(e);
       }}
       {...(CarouselProps as any)}
     >
-      <div className="h-full">
+      <div className="h-full gap-y-4">
         <h1 className="justify-center text-6xl font-bold items-center mt-24">LET'S GET IN TOUCH</h1>
       </div>
-      <div className="h-full">
+      <div className="h-full gap-y-4">
       <div className="flex flex-col items-center justify-center ">
           
           <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
@@ -130,7 +130,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="lg:h-[90%] flex flex-col">
+      <div className="h-full gap-y-4">
         <div className="flex flex-col">
           <div className="flex flex-row">
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
@@ -156,7 +156,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             </div>
         </div>
       </div>
-      <div className="lg:h-[90%] flex flex-col ">
+      <div className="h-full gap-y-4 ">
         <div className="flex flex-col">
           <div className="flex flex-row">
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
@@ -166,7 +166,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
+              <img  src={temp.src}/>
             </div>
         </div>
         <div className="flex flex-col">
