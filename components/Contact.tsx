@@ -21,8 +21,8 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   });
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
-    <div className="flex flex-col items-center gap-y-2 top-1 px-4">
-    <Carousel
+    <div className="flex flex-col items-center gap-y-4 top-1 px-4">
+    <Carousel className="gap-y-4"
       onChange={(e) => {
         setSelectedSlide(e);
       }}
@@ -136,7 +136,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
             <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
           </div>
-            <div className="flex flex-row justify-start float-left  bg-blue-300 gap-x-8">
+            <div className="absolute flex flex-row justify-start float-left  bg-blue-300 gap-x-8">
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
@@ -148,7 +148,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-300 via-red-500 to-red-300"></div>
             <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
           </div>
-            <div className="flex flex-row justify-start float-left bg-red-300 gap-x-8">
+            <div className="absolute flex flex-row justify-start float-left bg-red-300 gap-x-8">
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
@@ -162,7 +162,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
             <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
             <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-300"></div>
           </div>
-            <div className="inline-block align-middle relative justify-center  bg-yellow-300 gap-x-8">
+            <div className="absolute inline-block align-middle justify-center  bg-yellow-300 gap-x-8">
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
@@ -174,7 +174,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-pink-400 via-pink-600 to-pink-400"></div>
             <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
           </div>
-            <div className="flex flex-row justify-start float-left bg-pink-400 gap-x-8">
+            <div className="absolute flex flex-row justify-start float-left bg-pink-400 gap-x-8">
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
               <img className="absolute " src={temp.src}/>
