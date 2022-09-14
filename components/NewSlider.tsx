@@ -7,57 +7,58 @@
   import {TechData } from "../constants/TechCourses";
 
 
-  var ind: number = 0;
+  var ind1: number = 0;
+  var ind2: number = 0;
   class newslide extends Component {
     state = {msg: "Tech courses"}
   }
 
   function figma(){
-    ind = 1;
+    ind1 = 1;
   }
 
   function cpp(){
-    ind = 2;
+    ind1 = 2;
   }
 
   function python(){
-    ind = 3;
+    ind1 = 3;
   }
 
   function mysql(){
-    ind = 4;
+    ind1 = 4;
   }
 
   function java(){
-    ind = 5;
+    ind1 = 5;
   }
 
   function html(){
-    ind = 6;
+    ind1 = 6;
   }
 
   function nt1(){
-    ind = 7;
+    ind2 = 7;
   }
 
   function nt2(){
-    ind = 8;
+    ind2 = 8;
   }
 
   function nt3(){
-    ind = 9;
+    ind2 = 9;
   }
 
   function nt4(){
-    ind = 10;
+    ind2 = 10;
   }
 
   function nt5(){
-    ind = 11;
+    ind2 = 11;
   }
 
   function nt6(){
-    ind = 12;
+    ind2 = 12;
   }
 
   const NewSlider: React.FC = () => {
@@ -68,6 +69,8 @@
         <Carousel
           onChange={(e) => {
             setSelectedSlide(e);
+            ind1 = 0;
+            ind2 = 0;
           }}
           {...(CarouselProps as any)}
         >
@@ -89,7 +92,7 @@
                 <BriefcaseIcon onClick={java} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
                 <LogoutIcon onClick={html} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-                <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
+                <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind1]}</p>
               </div>
                 </div>
               <div className=" pl-[500px] w-full pr-20">
@@ -146,7 +149,7 @@
                 <BriefcaseIcon onClick={nt5} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
                 <LogoutIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-                <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind]}</p>
+                <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind2]}</p>
               </div>
                 </div>
               </div>
