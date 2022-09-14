@@ -114,7 +114,7 @@
             </div>
           </div>
               </div>
-                <div className="absolute border-solid border border-gray-400  h-96 w-96 rounded-[180px] mt-20">
+                <div className="absolute ml-[500px] border-solid border border-gray-400  h-96 w-96 rounded-[180px] mt-20">
                   Helloworld
                 </div>
               </div>
