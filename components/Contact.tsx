@@ -138,10 +138,12 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
         </div>
         <div className="flex flex-row gap-x-3">
             <div><img src={temp.src}/></div>
-            <div>hello</div>
-            <div>hello</div>
-            <div>hello</div>
+            <div><img src={temp.src}/></div>
+            <div><img src={temp.src}/></div>
+            <div><img src={temp.src}/></div>
         </div>
+        </div>
+        <div>
         <div className="flex flex-row ">
           <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
           <div className="flex flex-row pl-3 mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-300"></div>
