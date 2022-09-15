@@ -28,10 +28,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
       }}
       {...(CarouselProps as any)}
     >
-      <div className="h-full gap-y-4">
+      <div className="h-full pt-4">
         <h1 className="justify-center text-6xl font-bold items-center mt-24">LET'S GET IN TOUCH</h1>
       </div>
-      <div className="h-full gap-y-4">
+      <div className="h-full pt-4">
       <div className="flex flex-col items-center justify-center ">
           
           <div className="bg-gray-200  flex flex-col w-full items-center justify-between">
@@ -130,57 +130,11 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="h-full gap-y-4">
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-            <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
-            <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
-          </div>
-            <div className="absolute flex flex-row justify-start float-left  bg-blue-300 gap-x-8">
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-            </div>
-        </div>
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-300 via-red-500 to-red-300"></div>
-            <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
-          </div>
-            <div className="absolute flex flex-row justify-start float-left bg-red-300 gap-x-8">
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-            </div>
-        </div>
+      <div className="h-full bg-yellow-400  pt-4">
+        hello1
       </div>
-      <div className="h-full gap-y-4 ">
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-            <h4 className="text-6x1 flex-row">Instagram @cybernaut_official  </h4>
-            <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-300"></div>
-          </div>
-            <div className="absolute inline-block align-middle justify-center  bg-yellow-300 gap-x-8">
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img  src={temp.src}/>
-            </div>
-        </div>
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-pink-400 via-pink-600 to-pink-400"></div>
-            <h4 className="text-6x1 flex-row">  Instagram @cybernaut_official</h4>
-          </div>
-            <div className="absolute flex flex-row justify-start float-left bg-pink-400 gap-x-8">
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-              <img className="absolute " src={temp.src}/>
-            </div>
-        </div>
+      <div className="h-full bg-cyan-800 pt-4 ">
+        hello2
       </div>
     </Carousel>
     <div className="w-[20%] h-6 flex items-center justify-between bg-white">
