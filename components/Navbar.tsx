@@ -46,7 +46,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
           <a
             href="../about_components/test"
             className={
-              router.pathname === "/about_us"
+              router.pathname === "/services"
                 ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
                 : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
             }
