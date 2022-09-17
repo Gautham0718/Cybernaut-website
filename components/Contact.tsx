@@ -130,7 +130,7 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="h-[90%] m-6">
+      <div className="h-full m-6">
         helloworld
       </div>
       <div className="h-full m-6 ">
