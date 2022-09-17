@@ -137,10 +137,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
         </div>
         <div className=" bg-blue-500 flex flex-row gap-x-20 gapy-6">
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
         </div>
         </div>
         <div className=" flex flex-col">
@@ -149,10 +149,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row pl-3 mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400"></div>
         </div>
         <div className="flex flex-row bg-red-600 gap-x-20 gap-y-6">
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
         </div>
         </div>
       </div>
@@ -163,10 +163,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
         </div>
         <div className=" bg-blue-500 flex flex-row gap-x-20 gapy-6">
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
         </div>
         </div>
         <div className=" flex flex-col">
@@ -175,10 +175,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           <div className="flex flex-row pl-3 mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400"></div>
         </div>
         <div className="flex flex-row bg-red-600 gap-x-20 gap-y-6">
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
-            <div><img src={temp.src}/></div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
+            <div>helloworld</div>
         </div>
         </div>
       </div>
