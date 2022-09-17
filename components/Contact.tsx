@@ -131,56 +131,10 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
         </div>
       </div>
       <div className="h-[90%] m-6">
-        <div className=" flex flex-col">
-        <div className="flex flex-row">
-          <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
-          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
-        </div>
-        <div className=" bg-blue-500 flex flex-row gap-x-20 gapy-6">
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-        </div>
-        </div>
-        <div className=" flex flex-col">
-        <div className="flex flex-row ">
-          <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
-          <div className="flex flex-row pl-3 mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400"></div>
-        </div>
-        <div className="flex flex-row bg-red-600 gap-x-20 gap-y-6">
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-        </div>
-        </div>
+        helloworld
       </div>
       <div className="h-full m-6 ">
-      <div className=" flex flex-col">
-        <div className="flex flex-row">
-          <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
-          <div className="flex flex-row mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
-        </div>
-        <div className=" bg-blue-500 flex flex-row gap-x-20 gapy-6">
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-        </div>
-        </div>
-        <div className=" flex flex-col">
-        <div className="flex flex-row ">
-          <h4 className="text-6x1 flex-row">Instagram @cybernaut_official</h4>
-          <div className="flex flex-row pl-3 mt-3 w-[50%] align-middle h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400"></div>
-        </div>
-        <div className="flex flex-row bg-red-600 gap-x-20 gap-y-6">
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-            <div>helloworld</div>
-        </div>
-        </div>
+       helloworld
       </div>
     </Carousel>
     <div className="w-[20%] h-6 flex items-center justify-between bg-white">
