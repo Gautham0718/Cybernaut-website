@@ -26,7 +26,7 @@ const Navbar: React.FC<Props> = () => {
       });
     }, []);
   return (
-    <div>
+    <div className="flex flex-row">
       <Image
         height={60}
         width={screen.width / 5}
