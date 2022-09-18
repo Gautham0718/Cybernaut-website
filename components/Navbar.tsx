@@ -34,36 +34,41 @@ const Navbar: React.FC<Props> = () => {
         className="h-[80%] md:w-[30%] lg:w-fit w-full"
       />
       <div className="hidden md:flex w-[70%] items-end justify-end">
-        <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
+        <div className="hidden md:flex sm:w-[90%] lg:w-[70%] gap-x-5 items-center justify-around">
           <Link
             href="/"
-            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
+            <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Home
+            </h4>
           </Link>
           <Link
             href="/About"
-            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
+            <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             About Us
+            </h4>
           </Link>
           <Link
             href="/"
-            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
+            <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Services
+            </h4>
           </Link>
           <Link
             href="/"
-            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
+            <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Career
+            </h4>
           </Link>
           <Link
             href="/"
-            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
+            <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Communities
+            </h4>
           </Link>
           <Image
             width={screen.width / 15}
@@ -73,9 +78,10 @@ const Navbar: React.FC<Props> = () => {
           />
           <Link
           href="/"
-          className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
         >
-          Menu 
+          <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
+            Menu
+            </h4>
         </Link>
         </div>
       </div>
