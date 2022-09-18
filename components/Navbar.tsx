@@ -33,7 +33,7 @@ const Navbar: React.FC<Props> = () => {
         src={Logo.src}
         className="h-[80%] md:w-[30%] lg:w-fit w-full"
       />
-      <div className="hidden md:flex w-[70%] items-center justify-end">
+      <div className="hidden md:flex w-[70%] items-end justify-end">
         <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
           <Link
             href="/"
