@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
-import Navbar from "../Navbar";
+import Navbar from "../../components/Navbar";
 import { useRouter } from "next/router";
-import Footer from "../Footer";
-import VisionMission from "./VisionMission";
+import Footer from "../../components/Footer";
+import VisionMission from "../../components/About/VisionMission";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
