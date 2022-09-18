@@ -5,6 +5,10 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import VisionMission from "../../components/About/VisionMission";
 import AboutHome from "../../components/About/about";
+import Uniqueness from "../../components/About/unique";
+import Milestone from "../../components/About/milestone";
+import Founder from "../../components/About/founders";
+import Team from "../../components/About/team";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -33,6 +37,10 @@ const About: NextPage = () => {
       />
         <AboutHome/>
         <VisionMission />
+        <Uniqueness/>
+        <Milestone/>
+        <Founder/>
+        <Team/>
         <Footer/>
     </div>
   );
