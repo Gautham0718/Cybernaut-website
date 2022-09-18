@@ -34,7 +34,7 @@ const Navbar: React.FC<Props> = () => {
         className="h-[80%] md:w-[30%] lg:w-fit w-full"
       />
       <div className="hidden md:flex w-[70%] items-end justify-end">
-        <div className="hidden md:flex sm:w-[90%] lg:w-[70%] gap-x-5 items-center justify-around">
+        <div className="hidden md:flex sm:w-[90%] lg:w-[70%] pl-8 items-center justify-around">
           <Link
             href="/"
           >
