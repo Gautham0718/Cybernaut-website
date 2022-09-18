@@ -4,24 +4,24 @@ import HomeLogo from "../../public/HomeLogo.jpeg";
 
 const about = () => {
     return(
-        <div>
-        <div className=" m-8 bg-gray-300">
-            <blockquote className="justify-center content-center items-center text-2xl">
+        <div className="m-8">
+        <div className=" bg-gray-300 h-40 justify-center content-center items-center">
+            <blockquote className=" text-2xl">
                 "Education is the most powerful weapon which you can use to change the world" - <span className="font-semibold">Nelson Mandela</span>
             </blockquote>
         </div>
         <div className="flex flex-row">
             <div className="flex">
-                <img className="flex float-left py-10 justify-center object-center w-[30%] h-[30%] align-middle" src = {HomeLogo.src}/>
+                <img className=" relative flex float-left py-10 justify-center object-center align-middle" src = {HomeLogo.src}/>
             </div>
-            <div className="flex flex-col w-fit gap-x-4">
+            <div className="flex flex-col w-fit pl-40">
             <h4 className="font-bold justify-left font-2xl">
                  So, why not provide that weapon to everyone?
             </h4>
             <div className=" pt-4">
-                <div>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</div>
-                <div>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</div>
-                <div>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</div>
+                <div>This is the basic idea behind Cybernaut. Cybernaut is a registered startup company under MSME that has its vision of providing equal educational opportunities to everyone. </div>
+                <div>Knowledge is something that can be shared with someone, unlike money without any hesitation. Money is something fundamental for a living. Even though money is important, knowledge is the one that is the basic source for money. And so, education is very important. As an Ed-tech platform, we have our motto as 'Share your knowledge to expand others' knowledge.'</div>
+                <div>Cybernaut is a group of like-minded people who work towards the betterment of educational opportunities for everyone. In that manner, we conduct workshops and internships to impart knowledge to young minds.</div>
             </div>
             </div>
         </div>
