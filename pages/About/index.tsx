@@ -12,7 +12,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
     const navRef = useRef<HTMLDivElement>();
     const [show, setShow] = useState(true);
 
@@ -37,4 +37,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default About;
