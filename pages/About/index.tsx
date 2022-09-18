@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar";
 import { useRouter } from "next/router";
 import Footer from "../../components/Footer";
 import VisionMission from "../../components/About/VisionMission";
+import about from "../../components/About/about";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -31,6 +32,7 @@ const About: NextPage = () => {
             : "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-300"
         }
       />
+        <about/>
         <VisionMission />
         <Footer/>
     </div>
