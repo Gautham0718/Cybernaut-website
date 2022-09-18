@@ -1,8 +1,8 @@
     import React from "react";
-    import { useRouter } from "next/router";
+    import Link from "next/link";
     import { CameraIcon , InboxIcon, PhoneIcon } from "@heroicons/react/outline";
     const footer = () =>{
-        const router = useRouter();
+        
         return (
             <div className="flex flex-col justify-center items-center bg-black w-full gap-y-8">
                 <h2 className=" font-bold text-4xl text-white justify-center ">CYBERNAUT</h2>
@@ -17,56 +17,37 @@
                 <p className="justify-center text-white text-4x1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
                 natus.</p>
                 <div className="flex flex-row justify-center items-center text-white gap-x-8">
-                <a
-                href="#home"
-                className={
-                router.pathname === "/home"
-                    ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer "
-                    : "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
-                }
+                <Link
+                href="/"
+                className= "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Home
-            </a>
-            <a
-                href="../about_components/test"
-                className={
-                router.pathname === "/about_us"
-                    ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                    : "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
-                }
+            </Link>
+            <Link
+                href="/About"
+                className="hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
+                
             >
                 About Us
-            </a>
-            <a
-                href="#services"
-                className={
-                router.pathname === "/services"
-                    ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                    : "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
-                }
+            </Link>
+            <Link
+                href="/Services"
+                className="hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Services
-            </a>
-            <a
-                href="#career"
-                className={
-                router.pathname === "/contact_us"
-                    ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                    : "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
-                }
+            </Link>
+            <Link
+                href="/Career"
+                className= "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Career
-            </a>
-            <a
-                href="#community"
-                className={
-                router.pathname === "/communities"
-                    ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                    : "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
-                }
+            </Link>
+            <Link
+                href="/Communities"
+                className="hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Communities
-            </a>
+            </Link>
             </div>
             </div>
         );
