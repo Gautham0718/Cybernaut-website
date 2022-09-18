@@ -7,7 +7,7 @@ const Unique = () =>{
     return(
         <div className="m-8">
             <h1 className="font-bold text-[36px]">How we are Unique</h1>
-            <div className="flex flex-row gap-x-4">
+            <div className="flex flex-row gap-x-8">
                 <div className="bg-gray-300 w-[50%]">
                     <div className="py-10">
                     Our uniqueness is our greatest strength. We ensure that no concept is memorized when it comes to our training, instead, they are made to understand right from the beginning i.e 'Smart Learning'.

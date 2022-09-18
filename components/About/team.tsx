@@ -18,33 +18,33 @@ const Team: React.FC = () =>{
           }}
           {...(CarouselProps as any)}
         >
-            <div className="flex">
+            <div className="flex lg:h-[80%]">
                 <div className="flex flex-row">
                 <img src = {TeamBg.src}/>
                 </div>
-                <div className="absolute flex flex-row gap-x-10">
+                <div className="absolute flex flex-row gap-x-10 m-20 align-middle">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                 </div>
@@ -56,26 +56,26 @@ const Team: React.FC = () =>{
                 <div className="absolute flex flex-row gap-x-10">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                     <div className="flex flex-col">
                         <img src = {member1.src} />
-                        <h2>NIKITHA</h2>
-                        <div className="text-gray-400 ">Secretary</div>
+                        <h2 className="justify-start text-[24px] font-bold">NIKITHA</h2>
+                        <div className="text-gray-400 font-semibold justify-start ">Secretary</div>
                         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import bg1 from "../../public/bg1.png";
 const VisionMission = () => {
     return(
         <div className="m-8 flex">
-            <div className="flex">
+            <div className="flex md:h-[70%]">
             <img src = {bg1.src}/>
             </div>
             <div className=" absolute items-center content-center align-middle justify-center origin-center  object-center px-[35%]">
