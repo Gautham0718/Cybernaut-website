@@ -4,9 +4,9 @@ import HomeLogo from "../../public/HomeLogo.jpeg";
 
 const about = () => {
     return(
-        <div className="m-8">
+        <div className="m-8 w-full h-fit lg:h-[600px] md:w-4/5 flex">
         <div className=" bg-gray-300 h-20 justify-center content-center align-middle items-center">
-            <div className=" text-2xl align-middle justify-center items-center text-center object-center pt-[50%]">
+            <div className=" text-2xl align-middle justify-center items-center text-center object-center pt-10">
                 "Education is the most powerful weapon which you can use to change the world" - <span className="font-semibold">Nelson Mandela</span>
             </div>
         </div>
