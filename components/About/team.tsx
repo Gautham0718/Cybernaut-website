@@ -50,7 +50,7 @@ const Team: React.FC = () =>{
                 </div>
             </div>
             <div>
-                <div>
+                <div className="flex">
                 <img src = {TeamBg1.src}/>
                 </div>
                 <div className="absolute flex flex-row gap-x-10">
