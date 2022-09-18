@@ -17,8 +17,10 @@ const Unique = () =>{
                     </div>
                 </div>
                 <div className="flex flex-row pl-4">
-                <div className=" relative align-bottom w-36 h-36 bg-gray-300 rounded-[100%] pt-20 ">
+                    <div className="pt-20">
+                <div className=" relative align-bottom w-36 h-36 bg-gray-300 rounded-[100%]">
                     <img className="align-middle items-center self-center" src = {juniorspace.src}/>
+                </div>
                 </div>
                 <div className=" relative align-bottom w-64 h-64 bg-gray-300 rounded-[100%] ">
                     <img className=" align-middle items-center self-center" src = {HomeLogo.src}/>

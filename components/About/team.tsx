@@ -18,8 +18,8 @@ const Team: React.FC = () =>{
           }}
           {...(CarouselProps as any)}
         >
-            <div>
-                <div>
+            <div className="flex">
+                <div className="flex flex-row">
                 <img src = {TeamBg.src}/>
                 </div>
                 <div className="absolute flex flex-row gap-x-10">
@@ -49,8 +49,8 @@ const Team: React.FC = () =>{
                     </div>
                 </div>
             </div>
-            <div>
-                <div className="flex">
+            <div className="flex">
+                <div className="flex flex-row">
                 <img src = {TeamBg1.src}/>
                 </div>
                 <div className="absolute flex flex-row gap-x-10">

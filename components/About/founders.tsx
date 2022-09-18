@@ -7,7 +7,7 @@ const Founder = () =>{
         <div className="m-8">
             <div className="flex flex-row">
             <h1 className="text-[40px] font-bold">The Founders</h1>
-            <div className="w-20 h-1 pt-2 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
+            <div className="w-20 align-middle h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
             </div>
             <div className="flex flex-row gap-x-10">
                 <div className="flex flex-col">
