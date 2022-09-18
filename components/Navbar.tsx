@@ -3,6 +3,7 @@ import Logo from "../public/Logo.jpeg";
 import LeftNavImg from "../public/LeftNavImg.jpeg";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Link from "next/link";
 
 
 interface Props {
@@ -34,48 +35,48 @@ const Navbar: React.FC<Props> = () => {
       />
       <div className="hidden md:flex w-[70%] items-center justify-end">
         <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
-          <a
+          <Link
             href="/"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="/VisionMission"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             About Us
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Services
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Career
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Communities
-          </a>
+          </Link>
           <Image
             width={screen.width / 15}
             height={50}
             className="h-[90%]"
             src={LeftNavImg.src}
           />
-          <a
-          href="#menu"
+          <Link
+          href="/"
           className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
         >
           Menu 
-        </a>
+        </Link>
         </div>
       </div>
     </div>
