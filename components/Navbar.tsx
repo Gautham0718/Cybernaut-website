@@ -44,7 +44,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             Home
           </a>
           <a
-            href="../about_components/test"
+            href="/about_components/test"
             className={
               router.pathname === "/services"
                 ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
