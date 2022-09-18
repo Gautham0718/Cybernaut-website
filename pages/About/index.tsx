@@ -2,10 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
-import { useRouter } from "next/router";
 import Footer from "../../components/Footer";
 import VisionMission from "../../components/About/VisionMission";
-import about from "../../components/About/about";
+import AboutHome from "../../components/About/about";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -15,7 +14,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
 const About: NextPage = () => {
     const navRef = useRef<HTMLDivElement>();
-    const [show, setShow] = useState(true);
+    const [show] = useState(true);
 
   return (
     <div id="home" className="overflow-hidden">
@@ -32,7 +31,7 @@ const About: NextPage = () => {
             : "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-300"
         }
       />
-        <about/>
+        <AboutHome/>
         <VisionMission />
         <Footer/>
     </div>
