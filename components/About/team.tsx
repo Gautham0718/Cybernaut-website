@@ -11,7 +11,7 @@ import member1 from "../../public/TeamMember1.png";
 const Team: React.FC = () =>{
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
     return(
-        <div>
+        <div className="m-8">
              <Carousel
           onChange={(e) => {
             setSelectedSlide(e);
@@ -19,7 +19,9 @@ const Team: React.FC = () =>{
           {...(CarouselProps as any)}
         >
             <div>
+                <div>
                 <img src = {TeamBg.src}/>
+                </div>
                 <div className="absolute flex flex-row gap-x-10">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
@@ -48,7 +50,9 @@ const Team: React.FC = () =>{
                 </div>
             </div>
             <div>
+                <div>
                 <img src = {TeamBg1.src}/>
+                </div>
                 <div className="absolute flex flex-row gap-x-10">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
