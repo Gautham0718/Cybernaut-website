@@ -42,7 +42,7 @@ const Navbar: React.FC<Props> = () => {
             Home
           </Link>
           <Link
-            href="/VisionMission"
+            href="/About"
             className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             About Us
