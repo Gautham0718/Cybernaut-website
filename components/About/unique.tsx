@@ -19,13 +19,13 @@ const Unique = () =>{
                     </div>
                 </div>
                 <div className="flex flex-row">
-                <div className=" align-bottom w-[20%] h-[20%] bg-gray-300 rounded-[500px] pl-4 ">
+                <div className=" relative align-bottom w-[20%] h-[20%] bg-gray-300 rounded-[500px] pl-4 ">
                     <img src = {juniorspace.src}/>
                 </div>
-                <div className=" align-bottom w-[40%] h-[40%] bg-gray-300 rounded-[800px] pl-4">
+                <div className=" relative align-bottom w-[40%] h-[40%] bg-gray-300 rounded-[800px] pl-4">
                     <img src = {HomeLogo.src}/>
                 </div>
-                <div className=" align-bottom w-[20%] h-[20%] bg-gray-300 rounded-[500px] pl-4">
+                <div className=" relative align-bottom w-[20%] h-[20%] bg-gray-300 rounded-[500px] pl-4">
                     <img src = {StudentClub.src}/>
                 </div>
                 </div>
