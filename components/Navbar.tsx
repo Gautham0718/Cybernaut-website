@@ -11,7 +11,7 @@ interface Props {
   show: boolean;
 }
 
-const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
+const Navbar: React.FC<Props> = () => {
   const router = useRouter();
   const [screen, setScreen] = React.useState({
     width: 0,
@@ -25,7 +25,7 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
       });
     }, []);
   return (
-    <div ref={NavRef} className={className}>
+    <div>
       <Image
         height={60}
         width={screen.width / 5}
@@ -35,52 +35,32 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
       <div className="hidden md:flex w-[70%] items-center justify-end">
         <div className="hidden md:flex sm:w-[90%] lg:w-[70%] items-center justify-around">
           <a
-            href="#home"
-            className={
-              router.pathname === "/home"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-            }
+            href="/"
+            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Home
           </a>
           <a
             href="/About"
-            className={
-              router.pathname === "/About"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-            }
+            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             About Us
           </a>
           <a
-            href="#services"
-            className={
-              router.pathname === "/services"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-            }
+            href="/"
+            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Services
           </a>
           <a
-            href="#career"
-            className={
-              router.pathname === "/contact_us"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-            }
+            href="/"
+            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Career
           </a>
           <a
-            href="#community"
-            className={
-              router.pathname === "/communities"
-                ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-                : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-            }
+            href="/"
+            className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
           >
             Communities
           </a>
@@ -89,13 +69,10 @@ const Navbar: React.FC<Props> = ({ className, NavRef, show }) => {
             height={50}
             className="h-[90%]"
             src={LeftNavImg.src}
-          /><a
+          />
+          <a
           href="#menu"
-          className={
-            router.pathname === "/menu"
-              ? "border-b-2 border-b-black ease-linear duration-150 cursor-pointer"
-              : "hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
-          }
+          className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer"
         >
           Menu 
         </a>
