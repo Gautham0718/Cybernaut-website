@@ -20,7 +20,7 @@ const Team: React.FC = () =>{
         >
             <div>
                 <img src = {TeamBg.src}/>
-                <div className="flex flex-row gap-x-10">
+                <div className="absolute flex flex-row gap-x-10">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
                         <h2>NIKITHA</h2>
@@ -49,7 +49,7 @@ const Team: React.FC = () =>{
             </div>
             <div>
                 <img src = {TeamBg1.src}/>
-                <div className="flex flex-row gap-x-10">
+                <div className="absolute flex flex-row gap-x-10">
                     <div className="flex flex-col">
                         <img src = {member1.src} />
                         <h2>NIKITHA</h2>
