@@ -2,7 +2,7 @@
   import React, {Component} from "react";
   import { Carousel } from "react-responsive-carousel";
   import "react-responsive-carousel/lib/styles/carousel.css";
-  import { CarouselProps yfkuyhvjbnm} from "../data/CarouselProps";
+  import { CarouselProps } from "../data/CarouselProps";
   import Logo from "../public/Logo.jpeg";
 
   class newslide extends Component {
