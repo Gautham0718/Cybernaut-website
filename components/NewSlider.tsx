@@ -5,10 +5,7 @@
   import { CarouselProps } from "../data/CarouselProps";
   import Logo from "../public/Logo.jpeg";
 
-  class newslide extends Component {
-    state = {msg: "Tech courses"}
-  }
-
+ 
   function figma(){
     const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
     title_elem.innerHTML = "FIGMA";
@@ -98,10 +95,10 @@
   }
 
   function nt6(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
-    title_elem.innerHTML = "NT6";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
-    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+    const ntitle_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+    ntitle_elem.innerHTML = "NT6";
+    const ncontent_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    ncontent_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
@@ -135,7 +132,7 @@
                 <LogoutIcon onClick={html} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id = "tech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] font-bold align-middle items-center text-2x1">CYBERNAUT</p>
-                <p id = "tech-content-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
+                <p id = "tech-content-id" className=" justify-center ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
               </div>
                 </div>
               <div className=" pl-[500px] w-full pr-20">
@@ -193,7 +190,7 @@
                 <LogoutIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id = "nontech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1 font-bold">CYBERNAUT</p>
-                <p id = "nontech-content-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
+                <p id = "nontech-content-id" className=" justify-center ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
               </div>
                 </div>
               </div>
