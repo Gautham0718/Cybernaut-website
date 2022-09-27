@@ -4,63 +4,105 @@
   import "react-responsive-carousel/lib/styles/carousel.css";
   import { CarouselProps } from "../data/CarouselProps";
   import Logo from "../public/Logo.jpeg";
-  import {TechData } from "../constants/TechCourses";
 
-
-  var ind1: number = 0;
-  var ind2: number = 0;
   class newslide extends Component {
     state = {msg: "Tech courses"}
   }
 
   function figma(){
-    const elem : HTMLElement = document.getElementById('content-id') as HTMLElement;
-    elem.innerHTML = "Helloworld";
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "FIGMA";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
   function cpp(){
-    ind1 = 2;
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "C++";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function python(){
-    ind1 = 3;
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "PYTHON";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function mysql(){
-    ind1 = 4;
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "MYSQL";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function java(){
-    ind1 = 5;
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "JAVA";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function html(){
-    ind1 = 6;
+    const title_elem : HTMLElement = document.getElementById('tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "HTML";
+    const content_elem : HTMLElement = document.getElementById('tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt1(){
-    ind2 = 7;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT1";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt2(){
-    ind2 = 8;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT2";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt3(){
-    ind2 = 9;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT3";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt4(){
-    ind2 = 10;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT4";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt5(){
-    ind2 = 11;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT5";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   function nt6(){
-    ind2 = 12;
+    const title_elem : HTMLElement = document.getElementById('non-tech-title-id') as HTMLElement;
+    title_elem.innerHTML = "NT6";
+    const content_elem : HTMLElement = document.getElementById('non-tech-content-id') as HTMLElement;
+    content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
+
   }
 
   const NewSlider: React.FC = () => {
@@ -71,8 +113,6 @@
         <Carousel
           onChange={(e) => {
             setSelectedSlide(e);
-            ind1 = 0;
-            ind2 = 0;
           }}
           {...(CarouselProps as any)}
         >
@@ -94,7 +134,8 @@
                 <BriefcaseIcon onClick={java} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
                 <LogoutIcon onClick={html} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-                <p id = "content-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind1]}</p>
+              <p id = "tech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] font-bold align-middle items-center text-2x1">CYBERNAUT</p>
+                <p id = "tech-content-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
               </div>
                 </div>
               <div className=" pl-[500px] w-full pr-20">
@@ -151,7 +192,8 @@
                 <BriefcaseIcon onClick={nt5} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
                 <LogoutIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-                <p className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">{TechData[ind2]}</p>
+              <p id = "non-tech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1 font-bold">CYBERNAUT</p>
+                <p id = "non-tech-content-id" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
               </div>
                 </div>
               </div>
