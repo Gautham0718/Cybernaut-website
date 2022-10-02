@@ -10,8 +10,8 @@ const ViewCourseButton: React.FC<Props> = ({ text }) => {
     <div
       className={`w-fit h-fit bg-gray-200 rounded-lg p-1 px-2 flex gap-x-2 cursor-pointer items-center justify-center`}
     >
-      <p className={"text-black text-xs sm:text-sm"}>
-        {text ? text : "View Courses"}
+      <p className={"text-black font-semibold text-xs sm:text-sm"}>
+        {text ? text : "Learn More"}
       </p>
       <ArrowRightIcon
         className={

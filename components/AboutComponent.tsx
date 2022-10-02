@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { aboutPageChildren } from "../constants/AboutData";
 import StatusBar from "./StatusBar";
 import HomeLogo from "../public/HomeLogo.jpeg";
-
 const AboutComponent = () => {
   const [currTopic, setCurrTopic] = useState(0);
   return (

@@ -50,21 +50,21 @@ const Navbar: React.FC<Props> = () => {
             </h4>
           </Link>
           <Link
-            href="/"
+            href="/Services"
           >
             <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Services
             </h4>
           </Link>
           <Link
-            href="/"
+            href="/Career"
           >
             <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Career
             </h4>
           </Link>
           <Link
-            href="/"
+            href="/Communities"
           >
             <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Communities

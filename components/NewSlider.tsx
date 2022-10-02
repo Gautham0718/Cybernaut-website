@@ -1,5 +1,5 @@
-  import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, LogoutIcon } from "@heroicons/react/outline";
-  import React, {Component} from "react";
+  import { AcademicCapIcon, AtSymbolIcon, BellIcon, BookmarkIcon, BriefcaseIcon, CakeIcon, CashIcon, EyeIcon, LogoutIcon, MapIcon, MoonIcon, TagIcon } from "@heroicons/react/outline";
+  import React from "react";
   import { Carousel } from "react-responsive-carousel";
   import "react-responsive-carousel/lib/styles/carousel.css";
   import { CarouselProps } from "../data/CarouselProps";
@@ -54,50 +54,50 @@
 
   }
 
-  function nt1(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+  function temp(){
+    const title_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     title_elem.innerHTML = "NT1";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const content_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
-  function nt2(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+  function test(){
+    const title_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     title_elem.innerHTML = "NT2";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const content_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
   function nt3(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+    const title_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     title_elem.innerHTML = "NT3";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const content_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
   function nt4(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+    const title_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     title_elem.innerHTML = "NT4";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const content_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
   function nt5(){
-    const title_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+    const title_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     title_elem.innerHTML = "NT5";
-    const content_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const content_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     content_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
 
   function nt6(){
-    const ntitle_elem : HTMLElement = document.getElementById('nontech-title-id') as HTMLElement;
+    const ntitle_elem : HTMLElement = document.getElementById('ntid') as HTMLElement;
     ntitle_elem.innerHTML = "NT6";
-    const ncontent_elem : HTMLElement = document.getElementById('nontech-content-id') as HTMLElement;
+    const ncontent_elem : HTMLElement = document.getElementById('nttt') as HTMLElement;
     ncontent_elem.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero dis sagittis nibh lectus mauris. Eget diam convallis venenatis diam. Nunc aliquet faucibus in scelerisque";
 
   }
@@ -132,7 +132,7 @@
                 <LogoutIcon onClick={html} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
               <p id = "tech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] font-bold align-middle items-center text-2x1">CYBERNAUT</p>
-                <p id = "tech-content-id" className=" justify-center ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
+                <p id = "tech-content-id" className=" mx-5 justify-center ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
               </div>
                 </div>
               <div className=" pl-[500px] w-full pr-20">
@@ -182,15 +182,15 @@
           </div>
               </div>
                 <div className="absolute ml-[50%] border-solid border border-gray-400  h-96 w-96 rounded-[500px] mt-20">
-                <AcademicCapIcon onClick={nt1} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
-                <AtSymbolIcon onClick={nt2} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
-                <BellIcon onClick={nt3} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
-                <BookmarkIcon onClick={nt4} className="w-12 h-12 absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
-                <BriefcaseIcon onClick={nt5} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
-                <LogoutIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
+                <EyeIcon onClick={temp} className="absolute shadow-blue-200 shadow-sm ease-linear duration-200 hover:bg-blue-400 hover:text-white cursor-pointer py-0 w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-20"/>
+                <TagIcon onClick={test} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 -translate-y-4"/>
+                <MapIcon onClick={nt3} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-20"/>
+                <CakeIcon onClick={nt4} className="w-12 h-12 absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-[340px] translate-y-64"/>
+                <CashIcon onClick={nt5} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-x-44 translate-y-[360px] "/>
+                <MoonIcon onClick={nt6} className="absolute shadow-blue-200  hover:bg-blue-400 hover:text-white cursor-pointer w-12 h-12 border border-solid border-gray-400 rounded-full bg-white text-blue-400 translate-y-64"/>
               <div className=" absolute m-16 origin-center ease-linear duration-200 justify-center align-middle items-center border border-solid border-white bg-white w-64 h-64 rounded-full">
-              <p id = "tech-title-id" className=" justify-center ease-linear duration-200 pt-[25%] font-bold align-middle items-center text-2x1">CYBERNAUT</p>
-                <p id = "tech-content-id" className=" justify-center ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT</p>
+               <p id = "ntid" className=" justify-center ease-linear duration-200 pt-[25%] align-middle items-center text-2x1 font-bold">CYBERNAUT</p>
+                <p id = "nttt" className=" justify-center mx-5 ease-linear duration-200 align-middle items-center text-2x1">WELCOME TO CYBERNAUT NON TECH</p>
               </div>
                 </div>
               </div>

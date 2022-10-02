@@ -12,7 +12,7 @@ const about = () => {
         </div>
         <div className="flex flex-row pt-10">
             <div className="flex items-center">
-                <img className=" relative flex justify-center object-center align-middle md:w-80" src = {HomeLogo.src}/>
+                <img className=" relative ml-20 flex justify-center object-center align-middle md:w-80" src = {HomeLogo.src}/>
             </div>
             <div className="flex flex-col w-fit pl-40">
             <h2 className="font-bold justify-left">
