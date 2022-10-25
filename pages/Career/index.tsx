@@ -4,11 +4,14 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import VisionMission from "../../components/About/VisionMission";
-import AboutHome from "../../components/About/about";
-import Uniqueness from "../../components/About/unique";
-import Founder from "../../components/About/founders";
-import Team from "../../components/About/team";
+import Intro from "../../components/Career/general";
+import Career1 from "../../components/Career/career1";
+import Career2 from "../../components/Career/career2";
+import Career3 from "../../components/Career/Career3";
+import Career4 from "../../components/Career/career4";
+import Promise from "../../components/Career/promise";
+import Opportunities from "../../components/Career/Oppurtunities";
+import PrgCoordinator from "../../components/Career/Coordinator";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -16,8 +19,8 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-const About: NextPage = () => {
-  const { asPath } = useRouter();
+const Career: NextPage = () => {
+    const { asPath } = useRouter();
   const navRef = useRef<HTMLDivElement>();
 
   useEffect(() => {
@@ -42,14 +45,17 @@ const About: NextPage = () => {
             : "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-300"
         }
       />
-        <AboutHome/>
-        <VisionMission />
-        <Uniqueness/>
-        <Founder/>
-        <Team/>
+        <Intro/>
+        <Career1/>
+        <Career2/>
+        <Career3/>
+        <Career4/>
+        <Promise/>
+        <Opportunities/>
+        <PrgCoordinator/>
         <Footer/>
     </div>
   );
 };
 
-export default About;
+export default Career;

@@ -4,11 +4,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import VisionMission from "../../components/About/VisionMission";
-import AboutHome from "../../components/About/about";
-import Uniqueness from "../../components/About/unique";
-import Founder from "../../components/About/founders";
-import Team from "../../components/About/team";
+import ServiceHome from "../../components/Services/ServiceHome";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -16,8 +12,8 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-const About: NextPage = () => {
-  const { asPath } = useRouter();
+const Service: NextPage = () => {
+    const { asPath } = useRouter();
   const navRef = useRef<HTMLDivElement>();
 
   useEffect(() => {
@@ -42,14 +38,10 @@ const About: NextPage = () => {
             : "bg-white z-30 w-full h-[80px] flex items-center justify-center md:justify-between text-sm px-4 fixed -top-[80px]  ease-in duration-300"
         }
       />
-        <AboutHome/>
-        <VisionMission />
-        <Uniqueness/>
-        <Founder/>
-        <Team/>
+        <ServiceHome/>
         <Footer/>
     </div>
   );
 };
 
-export default About;
+export default Service;

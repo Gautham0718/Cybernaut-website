@@ -1,15 +1,12 @@
 import React from "react";
-import bg from "../public/background.jpeg";
 import bg2 from "../public/background2.jpg";
 import ViewCourseButton from "./ViewCourseButton";
 
 const career = () => {
     return(
         <div className="flex justify-center items-center ">
-        <div className="flex lg:h-[40%] w-full"> 
-            <img src={bg.src} />
-        </div>
-        <div className="absolute flex h-[80%] w-[80%] justify-center align-middle items-center bg-white">
+        <div className="flex bg-ReadyBg bg-fixed bg-clip-border bg-cover px-48 py-56"> 
+        <div className="bg-white  p-5 gap-y-10 flex flex-col">
             <div className="flex flex-row mx-4 justify-between">
                 <div className=" align-middle items-center mt-12 ">
                     <div className="flex flex-row">
@@ -26,6 +23,7 @@ const career = () => {
                 </div>
                 <img className="flex flex-row h-auto w-auto p-6" src = {bg2.src} />
             </div>
+        </div>
         </div>
         </div>
     );

@@ -1,13 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
 import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Inaugration from "../../components/Communities/Inaugration";
 import AboutCdsc from "../../components/Communities/about";
 import Branch from "../../components/Communities/Branch";
 import Club from "../../components/Communities/StudentsClub";
-import Service from "../../components/Communities/Services";
+import ClubService from "../../components/Communities/ClubService";
+import ACCF from "../../components/Communities/AmbassadorCrewContact";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
@@ -15,9 +17,16 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-const About: NextPage = () => {
-    const navRef = useRef<HTMLDivElement>();
-    const [show] = useState(true);
+const Communities: NextPage = () => {
+  const { asPath } = useRouter();
+  const navRef = useRef<HTMLDivElement>();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   return (
     <div id="home" className="overflow-hidden">
@@ -38,10 +47,11 @@ const About: NextPage = () => {
         <AboutCdsc/>
         <Branch/>
         <Club/>
-        <Service/>
+        <ClubService/>
+        <ACCF/>
         <Footer/>
     </div>
   );
 };
 
-export default About;
+export default Communities;

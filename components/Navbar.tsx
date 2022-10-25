@@ -36,7 +36,7 @@ const Navbar: React.FC<Props> = () => {
       <div className="hidden md:flex w-[70%] items-end justify-end">
         <div className="hidden md:flex sm:w-[90%] lg:w-[70%] pl-8 items-center justify-around">
           <Link
-            href="/"
+            href="/Home"
           >
             <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Home
@@ -50,7 +50,7 @@ const Navbar: React.FC<Props> = () => {
             </h4>
           </Link>
           <Link
-            href="/Services"
+            href="/Service"
           >
             <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Services
@@ -77,7 +77,7 @@ const Navbar: React.FC<Props> = () => {
             src={LeftNavImg.src}
           />
           <Link
-          href="/"
+          href="/Menu"
         >
           <h4 className="hover:border-b-2 hover:border-b-black hover:text-blue-400 hover:font-semibold ease-linear duration-150 cursor-pointer">
             Menu

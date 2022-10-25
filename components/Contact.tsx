@@ -5,7 +5,6 @@ import ViewCourseButton from "./ViewCourseButton";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { CarouselProps } from "../data/CarouselProps";
-import temp from "../public/temp.jpeg";
 
 
 interface Props {
@@ -21,15 +20,19 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
   });
     const [selectedSlide, setSelectedSlide] = React.useState<number>(0);
   return (
-    <div className="h-full flex flex-col items-center gap-y-4 top-1 px-4">
+    <div className=" flex flex-col items-center gap-y-4  ">
     <Carousel 
       onChange={(e) => {
         setSelectedSlide(e);
       }}
       {...(CarouselProps as any)}
     >
-      <div className="h-full m-6">
-        <h1 className="justify-center text-6xl font-bold items-center mt-24">LET'S GET IN TOUCH</h1>
+      <div className="h-full m-10 ">
+        <h1 className="justify-center text-6xl font-bold items-center mt-32">LET'S GET IN TOUCH</h1>
+        <div className="ml-[40%]">
+                    <div className=" h-10 w-48 border-blue-500 border-2 translate-x-8 translate-y-12 bg-none bg-transparent "></div>
+                    <div className=" absolute h-10 w-48 text-[24px] font-semibold bg-gradient-to-br from-blue-600 to to-blue-400 text-white text-center justify-center">Join Us</div>
+        </div>
       </div>
       <div className="h-full m-6">
       <div className="flex flex-col items-center justify-center ">
@@ -130,38 +133,26 @@ const Contacts: React.FC<Props> = ({ submitDataFN }) => {
           </div>
         </div>
       </div>
-      <div className="h-full m-6">
-        helloworld
-      </div>
-      <div className="h-full m-6 ">
-       helloworld
-      </div>
     </Carousel>
-    <div className="w-[20%] h-6 flex items-center justify-between bg-white">
-      <div
-        className={
-          selectedSlide === 0
-            ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
-            : "w-7 h-4 rounded-full border-2 border-cyan-400"
-        }
-      ></div>
-      <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
-      <div
-        className={
-          selectedSlide === 1
-            ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
-            : "w-7 h-4 rounded-full border-2 border-blue-300"
-        }
-      ></div>
-      <div className="flex w-[90%] h-1 bg-gradient-to-r from-blue-300 to-blue-500"></div>
-      <div
-        className={
-          selectedSlide === 2
-            ? "w-7 h-4 rounded-full border-2 border-blue-500 bg-blue-500  ease-linear duration-500"
-            : "w-7 h-4 rounded-full border-2 border-blue-500"
-        }
-      ></div>
-    </div>
+    <div className="w-[20%] h-6 flex items-center justify-between bg-white mt-4 mb-10">
+          <div
+            className={
+              selectedSlide === 0
+                ? "w-7 h-4 rounded-full border-2 border-cyan-400 bg-blue-500  ease-linear duration-500"
+                : "w-7 h-4 rounded-full border-2 border-cyan-400"
+            }
+          ></div>
+          <div className="flex w-[90%] h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-300"></div>
+          <div
+            className={
+              selectedSlide === 1
+                ? "w-7 h-4 rounded-full border-2 border-blue-300 bg-blue-500  ease-linear duration-500"
+                : "w-7 h-4 rounded-full border-2 border-blue-300"
+            }
+          ></div>
+          
+        </div>
+    
   </div>
   );
 };

@@ -31,7 +31,7 @@
                 About Us
             </Link>
             <Link
-                href="/Services"
+                href="/Service"
                 className="hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Services
