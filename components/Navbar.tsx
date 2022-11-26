@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import Logo from "../public/Logo.jpeg";
-import LeftNavImg from "../public/LeftNavImg.jpeg";
+import LeftNavImg from "../public/LeftNavImg.png";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";

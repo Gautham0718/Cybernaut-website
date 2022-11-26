@@ -13,6 +13,7 @@ const GeneralEn = () =>{
                     <p className="text-center">GENERAL ENLIGHTENMENT</p>
                 </div>
                 <div className="flex flex-row gap-x-10">
+                    <a href = "/Service/ContentWriting">
                     <div className="flex flex-col gap-y-4 hover:border-red-400 hover:border-2 rounded-xl p-8">
                         <img src={GE1.src}/>
                         <p className = "flex font-semibold text-[20px]">Content Writing</p>
@@ -26,7 +27,8 @@ const GeneralEn = () =>{
                             ₹499
                         </div>
                     </div>
-                    <a >
+                    </a>
+                    <a href = "/Service/Communication">
                     <div className="flex flex-col gap-y-4 hover:border-red-400 hover:border-2 rounded-xl p-8 ">
                         <img src={GE2.src}/>
                         <p className = "flex font-semibold text-[20px]">Communication</p>
@@ -41,6 +43,7 @@ const GeneralEn = () =>{
                         </div>
                     </div>
                     </a>
+                    <a href = "/Service/Spoken">
                     <div className="flex flex-col gap-y-4 hover:border-red-400 hover:border-2 rounded-xl p-8">
                         <img src={GE3.src}/>
                         <p className = "flex font-semibold text-[20px]">Spoken and written english</p>
@@ -54,6 +57,7 @@ const GeneralEn = () =>{
                             ₹499
                         </div>
                     </div>
+                    </a>
                 </div>       
                 <div className="flex flex-row gap-x-10">
                     <div className="flex flex-col gap-y-4 hover:border-red-400 hover:border-2 rounded-xl p-8">

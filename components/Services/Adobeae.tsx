@@ -1,10 +1,10 @@
 import React from "react";
 import SB from "../../public/ServiceBanner.png";
-import ServiceSideTag from "./SideTag";
 import SD from "./servicedetails";
+import ServiceSideTag from "./SideTag";
 
 
-const Cpp = () =>{
+const AAE = () =>{
     return(
         <div className="m-10 flex flex-col gap-y-10">
         <ServiceSideTag/>
@@ -13,7 +13,7 @@ const Cpp = () =>{
             </div>
             <div className="flex flex-col gap-y-8 w-[85%]">
                 <div className="flex flex-col">
-                    <h1 className="font-bold text-[32px]">C++ Programming</h1>
+                    <h1 className="font-bold text-[32px]">Adobe After Effects</h1>
                     <div className="flex flex-row text-gray-400 text-[15px]">
                          <p>By Team Cybernaut</p>
                         <div className="w-14 h-1 mt-2 ml-2 bg-gray-500"></div>
@@ -21,7 +21,7 @@ const Cpp = () =>{
                 </div>
                 <div className="flex font-semibold text-[24px]">Description</div>
                 <div className="flex text-gray-400 text-[15px] w-[90%]">
-                For all the youngsters interested in developing games and gaming consoles (Xbox, PlayStation, and Nintendo Switch) to the people interested in developing operating systems and browsers, C++ is the answer. It is a general-purpose programming language that is powerful. C++ supports different ways of programming like procedural, functional, etc. making it flexible and portable. Being an object-oriented programming language, it gives a clear structure to programs and allows code to be reused, lowering development costs. Also, it supports the four primary features of OOP: encapsulation, polymorphism, abstraction, and inheritance.C++ is a superset of C language. If one knows the C programming language, C++ is very easy to learn as both are similar. 
+                Ever wondered how Nike has great advertisements? They are all done with adobe after effects. It is a software used for adding motion animation and visual effects. It has hundreds of effects that can be used to manipulate imagery and can be used to combine various layers of images and videos into the same frame. With the help of after effects, you can create 2D Vector Animation, Basic 3D Animation, Character Animation, Kinetic Typography, UI/UX mock-up animations, and Visual Effects. Design your way through and learn adobe after effects.
                 </div>
                 <SD/>
             </div>
@@ -29,4 +29,4 @@ const Cpp = () =>{
     )
 }
 
-export default Cpp;
+export default AAE;

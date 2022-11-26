@@ -46,6 +46,7 @@ const TechEn = () =>{
                         </div>
                     </div>
                     </a>
+                    <a href = "/Service/Python">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE3.src}/>
                         <p className = "flex font-semibold text-[20px]">Python Programming</p>
@@ -59,6 +60,7 @@ const TechEn = () =>{
                             ₹499
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div className="flex flex-row">
                     <p className="font-semibold text-[32px]">Master Enlightenment</p>
@@ -78,7 +80,7 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
-                    <a >
+                    <a href = "/Service/Cpp">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8 ">
                         <img src={TE2.src}/>
                         <p className = "flex font-semibold text-[20px]">C++ Programming</p>
@@ -93,6 +95,7 @@ const TechEn = () =>{
                         </div>
                     </div>
                     </a>
+                    <a href = "/Service/Python">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE3.src}/>
                         <p className = "flex font-semibold text-[20px]">Python Programming</p>
@@ -106,8 +109,10 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
                 </div>       
                 <div className="flex flex-row gap-x-10">
+                <a href = "/Service/Java">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE4.src}/>
                         <p className = "flex font-semibold text-[20px]">Java Programming</p>
@@ -121,9 +126,11 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
+                    <a href = "/Service/Mysql">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE5.src}/>
-                        <p className = "flex font-semibold text-[20px]">SQL</p>
+                        <p className = "flex font-semibold text-[20px]">MYSQL</p>
                         <div className="flex flex-row">
                             <ClockIcon className="w-6 h-6"/>
                             <p className="text-gray-400">30+Hrs Live session</p>
@@ -134,6 +141,7 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE6.src}/>
                         <p className = "flex font-semibold text-[20px]">DSA</p>
@@ -166,7 +174,7 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
-                    <a >
+                    <a href = "/Service/Cpp">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8 ">
                         <img src={TE2.src}/>
                         <p className = "flex font-semibold text-[20px]">C++ Programming</p>
@@ -181,6 +189,7 @@ const TechEn = () =>{
                         </div>
                     </div>
                     </a>
+                    <a href = "/Service/Python">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE3.src}/>
                         <p className = "flex font-semibold text-[20px]">Python Programming</p>
@@ -194,8 +203,10 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
                 </div>       
                 <div className="flex flex-row gap-x-10">
+                <a href = "/Service/Java">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE4.src}/>
                         <p className = "flex font-semibold text-[20px]">Java Programming</p>
@@ -209,9 +220,11 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
+                    <a href = "/Service/Mysql">
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE5.src}/>
-                        <p className = "flex font-semibold text-[20px]">SQL</p>
+                        <p className = "flex font-semibold text-[20px]">MYSQL</p>
                         <div className="flex flex-row">
                             <ClockIcon className="w-6 h-6"/>
                             <p className="text-gray-400">30+Hrs Live session</p>
@@ -222,6 +235,7 @@ const TechEn = () =>{
                             ₹2,499
                         </div>
                     </div>
+                    </a>
                     <div className="flex flex-col gap-y-4 hover:border-blue-400 hover:border-2 rounded-xl p-8">
                         <img src={TE6.src}/>
                         <p className = "flex font-semibold text-[20px]">DSA</p>

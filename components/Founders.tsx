@@ -83,13 +83,7 @@ const Founders = () => {
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
           </div>
           <p className="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit tempore, ullam illum nam maxime porro sapiente
-            assumenda harum tempora eos repellendus vitae provident a molestiae
-            nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam
-            maxime porro sapiente assumenda harum tempora eos repellendus vitae
-            provident a molestiae nisi enim, quam pariatur tenetur!
+          A reason is not needed to help or make a difference. The willingness to create an impact set in mind is enough. With an aim to equalize education for all, a group of students in accord with this aim set out and then came to be Cybernaut.
           </p>
         </div>
         <div className="mt-2">
@@ -98,15 +92,10 @@ const Founders = () => {
             <div className="w-14 h-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-400"></div>
           </div>
           <p className="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit tempore, ullam illum nam maxime porro sapiente
-            assumenda harum tempora eos repellendus vitae provident a molestiae
+          The company's environment is surrounded by like-minded and welcoming people. New ideas being shared are appreciated and valued for which efforts are taken to implement.
             <br />
             <br />
-            nisi enim, quam pariatur tenetur! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Reprehenderit tempore, ullam illum nam
-            maxime porro sapiente assumenda harum tempora eos repellendus vitae
-            provident a molestiae nisi enim, quam pariatur tenetur!
+          A lot of positive changes can be seen in terms of the way you work, the way you communicate, and the knowledge you gain. With a place to upskill yourself in all aspects, it is the perfect workplace and environment.
           </p>
         </div>
         <div className="mx-6">

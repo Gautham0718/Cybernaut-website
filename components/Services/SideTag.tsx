@@ -25,7 +25,7 @@ const ServiceSideTag = () => {
                     <hr className="ml-6 my-2"/>
                     <div className="pl-28 text-right flex gap-y-2 flex-col justify-end">
                         <p className="flex text-[15px] flex-row-reverse font-semibold">Buy the course</p>
-                        <p className=" flex flex-row-reverse text-blue-400 text-[24px] font-bold">₹499</p>
+                        <p className=" flex flex-row-reverse text-blue-400 text-[24px] font-bold">Cheap</p>
                         <p className="flex flex-row-reverse">The Best price for the the best education</p>
                         <p className="flex flex-row-reverse ml-20 pr-2 rounded-xl bg-blue-400 text-white font-bold text-[20px] ">Buy Now</p>
                     </div>

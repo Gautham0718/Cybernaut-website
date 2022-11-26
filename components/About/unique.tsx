@@ -1,6 +1,6 @@
 import React from "react";
-import UniqueJunior from "../../public/LeftNavImg.jpeg";
-import HomeLogo from "../../public/HomeLogo.jpeg";
+import UniqueJunior from "../../public/LeftNavImg.png";
+import UniqueLogo from "../../public/UniqueLogo.png";
 import StudentClub from "../../public/StudentClub.png";
 
 const Unique = () =>{
@@ -20,15 +20,15 @@ const Unique = () =>{
                     <div className="pt-20">
                 <div className=" relative text-center align-bottom w-36 h-36 bg-gray-300 rounded-[100%] p-4 pt-6">
                     <img className=" align-middle items-center rounded-full self-center" src = {UniqueJunior.src}/>
-                    <p className="font-bold text-[18px]">Junior Space</p>
-                    <p className="text-[10px]">Like School but Better</p>
                 </div>
                 </div>
                 <div className=" relative align-bottom w-64 h-64 bg-gray-300 rounded-[100%] ">
-                    <img className=" align-middle items-center rounded-full self-center w-[90%] h-[90%] m-3 object-fill" src = {HomeLogo.src}/>
+                    <img className=" align-middle items-center rounded-full self-center w-[90%] h-[90%] m-3 object-fill" src = {UniqueLogo.src}/>
                 </div>
                 <div className=" relative align-bottom w-36 h-36 bg-gray-300 rounded-[100%]">
                     <img className="align-middle items-center rounded-full w-[70%] h-[70%] self-center m-5 object-fill" src = {StudentClub.src}/>
+                    <p className="font-bold text-[10px] text-blue-400 text-center">CYBERNAUT DEVELOPERS</p>
+                    <p className="text-[10px] text-center">STUDENTS CLUB</p>
                 </div>
                 </div>
             </div>

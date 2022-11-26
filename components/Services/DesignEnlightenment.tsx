@@ -49,6 +49,7 @@ const DesignEn = () =>{
                         </div>
                     </div>
                     </a>
+                    <a href="/Service/Python">
                     <div className="flex flex-col gap-y-4 hover:border-pink-600 hover:border-2 rounded-xl p-8">
                         <img src={TE3.src}/>
                         <p className = "flex font-semibold text-[20px]">Python Programming</p>
@@ -62,12 +63,14 @@ const DesignEn = () =>{
                             ₹499
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div className="flex flex-row">
                     <p className="font-semibold text-[32px]">3D Designing</p>
                     <div className="w-14 h-1 mt-6 ml-2 bg-gradient-to-r from-pink-700 to-pink-300 "></div>
                 </div>
                 <div className="flex flex-row gap-x-10">
+                <a href="/Service/Figma">
                     <div className="flex flex-col gap-y-4 hover:border-pink-600 hover:border-2 rounded-xl p-8">
                         <img src={CE1.src}/>
                         <p className = "flex font-semibold text-[20px]">Figma</p>
@@ -81,6 +84,7 @@ const DesignEn = () =>{
                             ₹499
                         </div>
                     </div>
+                    </a>
                     <a >
                     <div className="flex flex-col gap-y-4 hover:border-pink-600 hover:border-2 rounded-xl p-8 ">
                         <img src={CE2.src}/>
@@ -111,6 +115,7 @@ const DesignEn = () =>{
                     </div>
                 </div>       
                 <div className="flex flex-row gap-x-10">
+                <a href="/Service/Figma">
                     <div className="flex flex-col gap-y-4 hover:border-pink-600 hover:border-2 rounded-xl p-8">
                         <img src={CE4.src}/>
                         <p className = "flex font-semibold text-[20px]">Figma</p>
@@ -124,6 +129,7 @@ const DesignEn = () =>{
                             ₹499
                         </div>
                     </div>
+                    </a>
                     <div className="flex flex-col gap-y-4 hover:border-pink-600 hover:border-2 rounded-xl p-8">
                         <img src={CE5.src}/>
                         <p className = "flex font-semibold text-[20px]">Adobe 3D</p>

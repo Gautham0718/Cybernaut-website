@@ -12,7 +12,7 @@ const Club = () =>{
                         <h1 className="font-bold text-[36px] flex flex-row">Cybernaut Developers Student Club<div className="w-48 h-1 mt-20 ml-20 flex absolute  bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div></h1>   
                     </div> 
                     <div className="text-center justify-center">
-                    Cybernaut developers Club connects all the developers in one place. This community is for undergraduate students who are willing to develop technologies and for students with a curiosity to grow as a developer.
+                    Cybernaut Developers Students Club is the place that connects developers. This is the community for those who are inquisitive when it comes to technology and developing it. Our motive is to ensure all-round development not only concentrating on their hard skills. They get an opportunity to upgrade their skills and come up with solutions for their universities.
                     </div>
                     <div className="font-semibold text-xl bg-gradient-to-r from-blue-500 to-blue-300 text-white text-center justify-center">
                     This club motivates the phrase "Create leaders and not employees."

@@ -18,7 +18,7 @@
                 natus.</p>
                 <div className="flex flex-row justify-center items-center text-white gap-x-8">
                 <Link
-                href="/"
+                href="/Home"
                 className= "hover:border-b-2 hover:border-b-white ease-linear duration-150 cursor-pointer"
             >
                 Home
